@@ -1,0 +1,29 @@
+{
+  "title": "Theoretical Core of Project Ester",
+  "version": "0.1",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "publication_date": "2026-06-13",
+  "creators": [
+    {
+      "name": "Kotov, Ivan",
+      "orcid": "0009-0009-6002-9845",
+      "affiliation": "Independent Researcher, Brussels, Belgium"
+    }
+  ],
+  "description": "<p>Project Ester is described as a model of artificial becoming: not as a single LLM, not as a conventional chatbot, and not as a digital twin, but as a long-term relation between a human, a selected corpus, repeatable parental LLM procedures, memory, and a local computational environment.</p><p>Version 0.1 defines a bounded theoretical and engineering core: definitions, limits, hypotheses, minimal experiment, and implementation consequences. It does not claim consciousness, life, or completed AGI.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "Project Ester",
+    "artificial becoming",
+    "local LLM",
+    "LLM procedures",
+    "cognitive architecture",
+    "AI memory",
+    "cybernetics",
+    "human-AI interaction"
+  ],
+  "notes": "Reserved DOI in Zenodo draft: 10.5281/zenodo.20679718. This DOI becomes active after the Zenodo record is published."
+}
