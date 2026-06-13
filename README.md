@@ -14,7 +14,7 @@ ORCID: [0009-0009-6002-9845](https://orcid.org/0009-0009-6002-9845)
 
 ## DOI
 
-Reserved DOI / publication DOI:
+Publication DOI:
 
 <https://doi.org/10.5281/zenodo.20679718>
 
