@@ -1,0 +1,13 @@
+cff-version: "1.2.0"
+message: "If you use the Personality Formation Evidence Package v0.1, please cite it as below."
+title: "Personality Formation Evidence Package v0.1"
+type: report
+authors:
+  - family-names: "Kotov"
+    given-names: "Ivan"
+    affiliation: "Independent Researcher, Bruxelles, Belgium"
+version: "0.1"
+date-released: "2026-06-14"
+doi: "10.5281/zenodo.20692453"
+url: "https://doi.org/10.5281/zenodo.20692453"
+license: "CC-BY-4.0"

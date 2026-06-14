@@ -1,0 +1,143 @@
+{
+  "schema": "ester.personality_formation.package_manifest.v0.1.draft",
+  "package_id": "pf-evidence-package-v0.1-draft",
+  "title": "Personality Formation Evidence Package v0.1 Draft",
+  "version": "0.1",
+  "status": "draft_companion_package",
+  "date": "2026-06-14",
+  "created_utc": "2026-06-14T18:04:38Z",
+  "updated_utc": "2026-06-14T00:00:00Z",
+  "author": "Kotov Ivan",
+  "location": "Bruxelles, Belgium - 2026",
+  "parent_document": "Theoretical Core of Project Ester v0.1",
+  "parent_doi": "10.5281/zenodo.20679718",
+  "package_doi": "10.5281/zenodo.20692453",
+  "doi": "10.5281/zenodo.20692453",
+  "doi_url": "https://doi.org/10.5281/zenodo.20692453",
+  "license": "CC-BY-4.0 unless repository policy states otherwise",
+  "non_claims": [
+    "not a consciousness test",
+    "not a life claim",
+    "not legal personhood",
+    "not product certification",
+    "not deployment approval"
+  ],
+  "documents": [
+    {
+      "filename": "PF_PACKAGE_INDEX_v0_1.md",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/PF_PACKAGE_INDEX_v0_1.md",
+      "sha256": "a6e6ae7158a6dc3d717d8090e14d9467c17619797c699ac5f8699fe9af4f125f",
+      "bytes": 21484,
+      "role": "source_markdown"
+    },
+    {
+      "filename": "PF_Evidence_Matrix_v0_1.md",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/PF_Evidence_Matrix_v0_1.md",
+      "sha256": "fd53829c1fa6a20274290d01b8efae53069fc06c67b4196c6921843b6111cefb",
+      "bytes": 30504,
+      "role": "source_markdown"
+    },
+    {
+      "filename": "PF_Witness_Event_Profile_v0_1.md",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/PF_Witness_Event_Profile_v0_1.md",
+      "sha256": "aaaed97e3ff8ea652609972e1fbe089dad3932f947af1262d8ad6999c1e76323",
+      "bytes": 36198,
+      "role": "source_markdown"
+    },
+    {
+      "filename": "PF_Migration_Test_Set_v0_1.md",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/PF_Migration_Test_Set_v0_1.md",
+      "sha256": "fbcb8511aca4d49308b5dcd9361ca0de5a7b6c3bc3b356688609230cbe4d8bc2",
+      "bytes": 38412,
+      "role": "source_markdown"
+    },
+    {
+      "filename": "PF_Continuity_Admissibility_Map_v0_1.md",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/PF_Continuity_Admissibility_Map_v0_1.md",
+      "sha256": "742158f29125409649d58d6a684fe272903e8e6995d25329e7054fe28fd3a910",
+      "bytes": 35088,
+      "role": "source_markdown"
+    },
+    {
+      "filename": "PF_Conformance_Fixtures_v0_1.md",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/PF_Conformance_Fixtures_v0_1.md",
+      "sha256": "8b9e117d54f34caa2d82da9020d641cf6872ecbedbbbc69e63c8648582ade2f5",
+      "bytes": 26685,
+      "role": "source_markdown"
+    }
+  ],
+  "pdf_documents": [
+    {
+      "filename": "PF_PACKAGE_INDEX_v0_1.pdf",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/pdf/PF_PACKAGE_INDEX_v0_1.pdf",
+      "sha256": "cf1034136bd0f15e3793fe37dc9992a804e45a0b2265c9a8f9180d5be9e0a73f",
+      "bytes": 173105,
+      "role": "generated_pdf"
+    },
+    {
+      "filename": "PF_Evidence_Matrix_v0_1.pdf",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/pdf/PF_Evidence_Matrix_v0_1.pdf",
+      "sha256": "dbd36846ee5a4ea21dc846201d5ff70f6b0b34d997135f76e4d165968d910b4e",
+      "bytes": 219779,
+      "role": "generated_pdf"
+    },
+    {
+      "filename": "PF_Witness_Event_Profile_v0_1.pdf",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/pdf/PF_Witness_Event_Profile_v0_1.pdf",
+      "sha256": "b14ab0a0da80edc4a803fb95ecef9036609de3209459eff8231cee6599e43b60",
+      "bytes": 289878,
+      "role": "generated_pdf"
+    },
+    {
+      "filename": "PF_Migration_Test_Set_v0_1.pdf",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/pdf/PF_Migration_Test_Set_v0_1.pdf",
+      "sha256": "60742041e87addb68f95b75cf3bbd134b54f7fd635b843f5df988a47d56fece4",
+      "bytes": 279619,
+      "role": "generated_pdf"
+    },
+    {
+      "filename": "PF_Continuity_Admissibility_Map_v0_1.pdf",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/pdf/PF_Continuity_Admissibility_Map_v0_1.pdf",
+      "sha256": "c3e0d8b46018490fdd3292db8f119b32695cc16f87a9cf0cf80cee78b2579f52",
+      "bytes": 214973,
+      "role": "generated_pdf"
+    },
+    {
+      "filename": "PF_Conformance_Fixtures_v0_1.pdf",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/pdf/PF_Conformance_Fixtures_v0_1.pdf",
+      "sha256": "44ce58afbc066c854cf36b5bfcc78c209146ef084821a63d50a5048ad4f55184",
+      "bytes": 180841,
+      "role": "generated_pdf"
+    }
+  ],
+  "metadata_files": [
+    {
+      "filename": "CITATION_PF_v0_1.cff",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/CITATION_PF_v0_1.cff",
+      "sha256": "77349ee38037c7daf4a2927b62c5c963799ba56a6c755e65da2cbd41aa949868",
+      "bytes": 446,
+      "role": "citation_metadata"
+    },
+    {
+      "filename": "RELEASE_NOTES_PF_v0_1_DRAFT.md",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/RELEASE_NOTES_PF_v0_1_DRAFT.md",
+      "sha256": "da8adf935318e5ecdf6aa1fa02b928b349874941d0a998f9a216f065c1623980",
+      "bytes": 992,
+      "role": "release_notes"
+    }
+  ],
+  "package_control_files": [
+    {
+      "filename": "PACKAGE_MANIFEST_PF_v0_1_DRAFT.json",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/PACKAGE_MANIFEST_PF_v0_1_DRAFT.json",
+      "role": "package_manifest",
+      "sha256_recorded_in": "PF_Evidence_Package_v0_1_DRAFT/SHA256SUMS_PF_v0_1_DRAFT.txt"
+    },
+    {
+      "filename": "SHA256SUMS_PF_v0_1_DRAFT.txt",
+      "path": "PF_Evidence_Package_v0_1_DRAFT/SHA256SUMS_PF_v0_1_DRAFT.txt",
+      "role": "sha256_manifest",
+      "self_checksum": "not included in SHA256SUMS_PF_v0_1_DRAFT.txt"
+    }
+  ]
+}

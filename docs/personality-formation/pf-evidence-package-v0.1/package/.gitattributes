@@ -1,0 +1,2 @@
+# Preserve the extracted Zenodo payload byte-for-byte.
+PF_Evidence_Package_v0_1_DRAFT/** -diff

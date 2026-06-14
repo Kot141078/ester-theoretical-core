@@ -18,6 +18,15 @@ Publication DOI:
 
 <https://doi.org/10.5281/zenodo.20679718>
 
+## Companion package
+
+**Personality Formation Evidence Package v0.1**
+
+- DOI: <https://doi.org/10.5281/zenodo.20692453>
+- Zenodo: <https://zenodo.org/records/20692453>
+- GitHub path: `docs/personality-formation/pf-evidence-package-v0.1/`
+- Parent DOI: <https://doi.org/10.5281/zenodo.20679718>
+
 ## Files
 
 ```text
