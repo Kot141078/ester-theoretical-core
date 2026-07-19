@@ -1,38 +1,40 @@
 cff-version: "1.2.0"
-message: "If you use this work, please cite it using the metadata from this file."
-title: "Theoretical Core of Project Ester"
-type: dataset
-version: "0.1"
-date-released: "2026-06-13"
-doi: "10.5281/zenodo.20679718"
-url: "https://doi.org/10.5281/zenodo.20679718"
+message: "If you use this research package, cite the version-specific Zenodo DOI after it is minted."
+title: "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty"
+type: software
+version: "0.8.1"
+date-released: "2026-07-19"
 abstract: >-
-  Project Ester is described as a model of artificial becoming: not as a single
-  LLM, not as a conventional chatbot, and not as a digital twin, but as a
-  long-term relation between a human, a selected corpus, repeatable parental
-  LLM procedures, memory, and a local computational environment.
+  Public preprint and bounded executable research package defining centered
+  agency as a governed causal history under persistent uncertainty. Includes
+  temporal authority, obligation and evidence lifecycle, selective operational
+  commitment, substrate-interaction boundaries, sealed measurement contracts,
+  reproducibility evidence, and open external-review protocols.
 authors:
   - family-names: "Kotov"
     given-names: "Ivan"
     affiliation: "Independent Researcher, Brussels, Belgium"
     orcid: "https://orcid.org/0009-0009-6002-9845"
 keywords:
-  - "Project Ester"
-  - "artificial becoming"
-  - "local LLM"
-  - "LLM procedures"
-  - "cognitive architecture"
-  - "AI memory"
-  - "cybernetics"
-  - "human-AI interaction"
-license: "CC-BY-4.0"
+  - "centered agency"
+  - "persistent uncertainty"
+  - "causal memory"
+  - "belief revision"
+  - "temporal witness"
+  - "selective operational commitment"
+  - "quantum information"
+  - "photonic computing"
+  - "matched control"
+  - "AI governance"
+repository-code: "https://github.com/Kot141078/ester-theoretical-core"
+url: "https://ivankotov.eu/publications/esther-rp-001/"
+license: "MIT"
 preferred-citation:
   type: report
-  title: "Theoretical Core of Project Ester"
-  version: "0.1"
+  title: "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty"
+  version: "0.8.1"
   year: 2026
-  doi: "10.5281/zenodo.20679718"
-  url: "https://doi.org/10.5281/zenodo.20679718"
+  url: "https://ivankotov.eu/publications/esther-rp-001/"
   authors:
     - family-names: "Kotov"
       given-names: "Ivan"
