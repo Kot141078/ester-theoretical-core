@@ -80,3 +80,46 @@ jobs:
               "$src/article/ESTHER_RP_001_v0_8_1_EN.pdf" \
               "$src/brief/ESTHER_RP_001_PUBLIC_BRIEF_EN.pdf"
           fi
+
+      - name: Verify release assets and publish machine receipt
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="esther-rp-001-v0.8.1"
+          status="docs/centered-agency/esther-rp-001-v0.8.1/MACHINE/GITHUB_RELEASE_PUBLICATION_STATUS.json"
+          release_json="$(gh release view "$tag" --json tagName,name,isDraft,isPrerelease,url,assets)"
+          echo "$release_json" | jq -e '
+            (.tagName == "esther-rp-001-v0.8.1") and
+            (.isDraft == false) and
+            (.isPrerelease == false) and
+            (([.assets[].name] | index("ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip")) != null) and
+            (([.assets[].name] | index("ESTHER_RP_001_v0_8_1_EN.pdf")) != null) and
+            (([.assets[].name] | index("ESTHER_RP_001_PUBLIC_BRIEF_EN.pdf")) != null)
+          ' >/dev/null
+          mkdir -p "$(dirname "$status")"
+          echo "$release_json" | jq '{
+            schema: "esther.rp001.github_release_publication_status.v1",
+            verdict: "PASS",
+            doi: "10.5281/zenodo.21443105",
+            zenodo_record: "https://zenodo.org/records/21443105",
+            canonical_archive: {
+              file: "ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip",
+              sha256: "83e71e2fab938e3110293a61967a85440969d8d7eb78a69bf4c1ae40afd4a9d7"
+            },
+            required_assets: [
+              "ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip",
+              "ESTHER_RP_001_v0_8_1_EN.pdf",
+              "ESTHER_RP_001_PUBLIC_BRIEF_EN.pdf"
+            ],
+            release: .
+          }' > "$status"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$status"
+          if git diff --cached --quiet; then
+            echo "Release publication receipt already current."
+          else
+            git commit -m "Record ESTHER-RP-001 GitHub release publication"
+            git push
+          fi
