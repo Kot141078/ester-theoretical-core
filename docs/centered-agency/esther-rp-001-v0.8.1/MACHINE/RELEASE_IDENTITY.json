@@ -1,0 +1,24 @@
+{
+  "schema": "esther.rp001.doi_release_identity.v1",
+  "title": "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty",
+  "version": "0.8.1",
+  "language": "en",
+  "publication_date": "2026-07-19",
+  "doi": "10.5281/zenodo.21443105",
+  "doi_url": "https://doi.org/10.5281/zenodo.21443105",
+  "zenodo_record_url": "https://zenodo.org/records/21443105",
+  "repository": "https://github.com/Kot141078/ester-theoretical-core",
+  "github_release": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1",
+  "website": "https://ivankotov.eu/publications/esther-rp-001/",
+  "author": {
+    "name": "Ivan Kotov",
+    "orcid": "0009-0009-6002-9845",
+    "affiliation": "Independent Researcher, Brussels, Belgium"
+  },
+  "scientific_core": "v0.8",
+  "packaging_revision": "v0.8.1",
+  "blind_review_packet_sha256": "38288d2000a8295c8eb8bc540c3fab4491aa66b1dca60a4d45135a957e4834f6",
+  "review_verdict": "NO_CANDIDATE_BLOCKERS_FOUND",
+  "windows_reproduction": "PASS",
+  "claim_boundary": "Bounded executable and conceptual evidence only; no consciousness, personhood, AGI, empirical continuity, production security, unbounded theorem, or quantum/photonic necessity claim."
+}

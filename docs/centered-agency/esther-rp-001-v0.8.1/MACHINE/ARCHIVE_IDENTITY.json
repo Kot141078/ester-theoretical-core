@@ -1,0 +1,12 @@
+{
+  "schema": "esther.rp001.doi_archive_identity.v1",
+  "file": "ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip",
+  "sha256": "83e71e2fab938e3110293a61967a85440969d8d7eb78a69bf4c1ae40afd4a9d7",
+  "size_bytes": 454012,
+  "zip_members": 116,
+  "crc": "PASS",
+  "doi": "10.5281/zenodo.21443105",
+  "zenodo_record_url": "https://zenodo.org/records/21443105",
+  "language": "en",
+  "validation_verdict": "PASS"
+}

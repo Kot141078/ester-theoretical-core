@@ -41,7 +41,11 @@
     {
       "identifier": "https://ivankotov.eu/publications/esther-rp-001/",
       "relation": "isDocumentedBy"
+    },
+    {
+      "identifier": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1",
+      "relation": "isSupplementedBy"
     }
   ],
-  "notes": "Scientific core v0.8; v0.8.1 includes the reviewed Windows runner hotfix and English-only public-release packaging."
+  "notes": "Scientific core v0.8; v0.8.1 includes the reviewed Windows runner hotfix and English-only DOI-bound public-release packaging. Reserved version DOI: 10.5281/zenodo.21443105."
 }

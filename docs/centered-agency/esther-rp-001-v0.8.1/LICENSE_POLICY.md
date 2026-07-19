@@ -1,4 +1,4 @@
-# License policy — ESTHER-RP-001 v0.8.1
+# License policy - ESTHER-RP-001 v0.8.1
 
 - Source code and executable reference/test surfaces: **MIT License**.
 - Articles, specifications, review calls, testing guides, and other prose: **Creative Commons Attribution 4.0 International (CC BY 4.0)**.

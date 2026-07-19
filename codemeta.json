@@ -1,0 +1,44 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty",
+  "version": "0.8.1",
+  "identifier": "https://doi.org/10.5281/zenodo.21443105",
+  "datePublished": "2026-07-19",
+  "inLanguage": "en",
+  "author": {
+    "@type": "Person",
+    "givenName": "Ivan",
+    "familyName": "Kotov",
+    "@id": "https://orcid.org/0009-0009-6002-9845",
+    "affiliation": "Independent Researcher, Brussels, Belgium"
+  },
+  "codeRepository": "https://github.com/Kot141078/ester-theoretical-core",
+  "downloadUrl": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1",
+  "url": "https://ivankotov.eu/publications/esther-rp-001/",
+  "license": [
+    "https://opensource.org/license/mit",
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "description": "Bounded executable research package accompanying the English working paper on centered agency under persistent uncertainty.",
+  "keywords": [
+    "centered agency",
+    "causal memory",
+    "belief revision",
+    "selective operational commitment",
+    "temporal witness",
+    "reproducible research"
+  ],
+  "programmingLanguage": "Python",
+  "runtimePlatform": [
+    "Python 3.10",
+    "PowerShell 7",
+    "POSIX shell"
+  ],
+  "softwareRequirements": "See executable/requirements-v0.8.txt",
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "Theoretical Core of Project Ester",
+    "identifier": "https://doi.org/10.5281/zenodo.20679718"
+  }
+}
