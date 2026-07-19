@@ -1,30 +1,18 @@
-# Release assets and publication commands
+# English release assets
 
-The versioned GitHub release and Zenodo deposit use these frozen assets:
+The GitHub release workflow builds and attaches a deterministic English-only public archive:
 
 ```text
-ESTHER_RP001_v0_8_1_PUBLIC_RESEARCH_RELEASE_2026-07-19.zip
-SHA-256: c57eb0d267c100b069f1b74402ee62d1693b495f1454b9275e17964f1ea31ce7
-
-ESTHER_RP001_v0_8_1_BLIND_REVIEW_PACKET.zip
-SHA-256: 38288d2000a8295c8eb8bc540c3fab4491aa66b1dca60a4d45135a957e4834f6
+ESTHER_RP001_v0_8_1_PUBLIC_RELEASE_EN_2026-07-19.zip
 ```
 
-## GitHub release
+The public English review packet prepared for independent testing is:
 
-From the local directory containing the four asset and checksum files:
-
-```powershell
-gh release create esther-rp-001-v0.8.1 `
-  .\ESTHER_RP001_v0_8_1_PUBLIC_RESEARCH_RELEASE_2026-07-19.zip `
-  .\ESTHER_RP001_v0_8_1_PUBLIC_RESEARCH_RELEASE_2026-07-19.zip.sha256.txt `
-  .\ESTHER_RP001_v0_8_1_BLIND_REVIEW_PACKET.zip `
-  .\ESTHER_RP001_v0_8_1_BLIND_REVIEW_PACKET.zip.sha256.txt `
-  --repo Kot141078/ester-theoretical-core `
-  --title "ESTHER-RP-001 v0.8.1 — Public research release" `
-  --notes-file .\GITHUB_RELEASE_NOTES.md
+```text
+ESTHER_RP001_v0_8_1_ENGLISH_REVIEW_PACKET.zip
+SHA-256: e154273e8fbe0900f17c03d7803adc3ca70f6757ff41ae78f0a36ce76f5b989f
 ```
 
-Verify that `ester-theoretical-core` is enabled in Zenodo's GitHub integration before creating the GitHub release. If it is not enabled, upload the complete public-release ZIP manually to Zenodo and use the metadata from `.zenodo.json` and `CITATION.cff`.
+The exact packet used for the sixth blind model review remains identified by SHA-256 in the review evidence but is not redistributed in the English-only public surface because its review instructions were produced in Russian.
 
-Do not reuse the earlier v0.1 DOI as the version DOI for this new file set. Relate the new record to `10.5281/zenodo.20679718` as `isSupplementTo`.
+The version DOI remains pending Zenodo archival of GitHub release `esther-rp-001-v0.8.1`.
