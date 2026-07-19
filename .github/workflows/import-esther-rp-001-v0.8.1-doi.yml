@@ -81,6 +81,21 @@ jobs:
               "$src/brief/ESTHER_RP_001_PUBLIC_BRIEF_EN.pdf"
           fi
 
+      - name: Remove superseded preliminary assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="esther-rp-001-v0.8.1"
+          for obsolete in \
+            "ESTHER_RP001_v0_8_1_PUBLIC_RELEASE_EN_2026-07-19.zip" \
+            "ESTHER_RP001_v0_8_1_PUBLIC_RELEASE_EN_2026-07-19.zip.sha256.txt"
+          do
+            if gh release view "$tag" --json assets --jq '.assets[].name' | grep -Fxq "$obsolete"; then
+              gh release delete-asset "$tag" "$obsolete" --yes
+            fi
+          done
+
       - name: Verify release assets and publish machine receipt
         env:
           GH_TOKEN: ${{ github.token }}
@@ -93,9 +108,11 @@ jobs:
             (.tagName == "esther-rp-001-v0.8.1") and
             (.isDraft == false) and
             (.isPrerelease == false) and
-            (([.assets[].name] | index("ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip")) != null) and
-            (([.assets[].name] | index("ESTHER_RP_001_v0_8_1_EN.pdf")) != null) and
-            (([.assets[].name] | index("ESTHER_RP_001_PUBLIC_BRIEF_EN.pdf")) != null)
+            (([.assets[].name] | sort) == ([
+              "ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip",
+              "ESTHER_RP_001_v0_8_1_EN.pdf",
+              "ESTHER_RP_001_PUBLIC_BRIEF_EN.pdf"
+            ] | sort))
           ' >/dev/null
           mkdir -p "$(dirname "$status")"
           echo "$release_json" | jq '{
@@ -112,6 +129,7 @@ jobs:
               "ESTHER_RP_001_v0_8_1_EN.pdf",
               "ESTHER_RP_001_PUBLIC_BRIEF_EN.pdf"
             ],
+            superseded_assets_removed: true,
             release: .
           }' > "$status"
           git config user.name "github-actions[bot]"
@@ -120,6 +138,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Release publication receipt already current."
           else
-            git commit -m "Record ESTHER-RP-001 GitHub release publication"
+            git commit -m "Record final ESTHER-RP-001 GitHub release assets"
             git push
           fi
