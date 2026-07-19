@@ -6,6 +6,7 @@ Public preprint, bounded executable research package, and open external-review t
 
 - ORCID: [0009-0009-6002-9845](https://orcid.org/0009-0009-6002-9845)
 - Website: <https://ivankotov.eu/publications/esther-rp-001/>
+- External review issue: <https://github.com/Kot141078/ester-theoretical-core/issues/1>
 - DOI: pending Zenodo publication of this version
 - Scientific content: v0.8
 - Packaging/reproducibility correction: v0.8.1
@@ -14,10 +15,10 @@ Public preprint, bounded executable research package, and open external-review t
 
 1. [`ARTICLE/ESTHER_RP_001_v0_8_1_EN.md`](ARTICLE/ESTHER_RP_001_v0_8_1_EN.md)
 2. [`ARTICLE/ESTHER_RP_001_v0_8_1_RU.md`](ARTICLE/ESTHER_RP_001_v0_8_1_RU.md)
-3. [`PUBLIC_REVIEW/PUBLIC_REVIEW_CALL_EN.md`](PUBLIC_REVIEW/PUBLIC_REVIEW_CALL_EN.md)
-4. [`PUBLIC_REVIEW/TESTING_GUIDE_EN.md`](PUBLIC_REVIEW/TESTING_GUIDE_EN.md)
-5. [`PUBLIC_REVIEW/REVIEWER_DECLARATION_TEMPLATE.md`](PUBLIC_REVIEW/REVIEWER_DECLARATION_TEMPLATE.md)
-6. [`PUBLIC_REVIEW/ENDPOINT_RATER_PILOT_PROTOCOL_EN.md`](PUBLIC_REVIEW/ENDPOINT_RATER_PILOT_PROTOCOL_EN.md)
+3. [`PUBLIC_REVIEW/README.md`](PUBLIC_REVIEW/README.md)
+4. [`RELEASE_ASSETS.md`](RELEASE_ASSETS.md)
+5. [`GITHUB_RELEASE_NOTES.md`](GITHUB_RELEASE_NOTES.md)
+6. [`LICENSE_POLICY.md`](LICENSE_POLICY.md)
 
 ## Frozen review target
 
