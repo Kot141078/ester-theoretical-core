@@ -1,15 +1,17 @@
 cff-version: "1.2.0"
-message: "If you use this research package, cite the version-specific Zenodo DOI after it is minted."
+message: "Please cite the version DOI shown on the Zenodo record for this release."
 title: "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty"
 type: software
 version: "0.8.1"
 date-released: "2026-07-19"
+url: "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1"
+repository-code: "https://github.com/Kot141078/ester-theoretical-core"
+repository-artifact: "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1"
 abstract: >-
-  Public preprint and bounded executable research package defining centered
-  agency as a governed causal history under persistent uncertainty. Includes
-  temporal authority, obligation and evidence lifecycle, selective operational
-  commitment, substrate-interaction boundaries, sealed measurement contracts,
-  reproducibility evidence, and open external-review protocols.
+  An English public working paper and bounded executable research package on
+  centered agency under persistent uncertainty, selective operational
+  commitment, temporal witness, obligation continuity, auditable substrate
+  interaction, and a falsifiable matched-control programme.
 authors:
   - family-names: "Kotov"
     given-names: "Ivan"
@@ -19,22 +21,18 @@ keywords:
   - "centered agency"
   - "persistent uncertainty"
   - "causal memory"
-  - "belief revision"
-  - "temporal witness"
   - "selective operational commitment"
-  - "quantum information"
-  - "photonic computing"
-  - "matched control"
-  - "AI governance"
-repository-code: "https://github.com/Kot141078/ester-theoretical-core"
-url: "https://ivankotov.eu/publications/esther-rp-001/"
-license: "MIT"
+  - "temporal witness"
+  - "belief revision"
+  - "multi-substrate computation"
+  - "matched profile-control"
+license: "CC-BY-4.0"
 preferred-citation:
   type: report
   title: "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty"
   version: "0.8.1"
   year: 2026
-  url: "https://ivankotov.eu/publications/esther-rp-001/"
+  url: "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1"
   authors:
     - family-names: "Kotov"
       given-names: "Ivan"
