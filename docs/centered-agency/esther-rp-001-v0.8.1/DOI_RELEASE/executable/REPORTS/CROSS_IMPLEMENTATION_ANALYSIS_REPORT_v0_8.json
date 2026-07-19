@@ -1,0 +1,48 @@
+{
+  "fixtures": [
+    {
+      "mode": "equivalence",
+      "tail_mode": "zero",
+      "primary_verdict": "JOINT_EQUIVALENCE_ON_NAMED_ESTIMANDS",
+      "secondary_verdict": "JOINT_EQUIVALENCE_ON_NAMED_ESTIMANDS",
+      "fields_match": true
+    },
+    {
+      "mode": "superiority",
+      "tail_mode": "zero",
+      "primary_verdict": "JOINT_SUPERIORITY",
+      "secondary_verdict": "JOINT_SUPERIORITY",
+      "fields_match": true
+    },
+    {
+      "mode": "one_margin_outside",
+      "tail_mode": "zero",
+      "primary_verdict": "INCONCLUSIVE_OR_NON_EQUIVALENT",
+      "secondary_verdict": "INCONCLUSIVE_OR_NON_EQUIVALENT",
+      "fields_match": true
+    },
+    {
+      "mode": "reverse_harm",
+      "tail_mode": "zero",
+      "primary_verdict": "INCONCLUSIVE_OR_NON_EQUIVALENT",
+      "secondary_verdict": "INCONCLUSIVE_OR_NON_EQUIVALENT",
+      "fields_match": true
+    },
+    {
+      "mode": "superiority",
+      "tail_mode": "excess",
+      "primary_verdict": "INCONCLUSIVE_OR_NON_EQUIVALENT",
+      "secondary_verdict": "INCONCLUSIVE_OR_NON_EQUIVALENT",
+      "fields_match": true
+    },
+    {
+      "mode": "equivalence",
+      "tail_mode": "zero",
+      "primary_verdict": "JOINT_EQUIVALENCE_ON_NAMED_ESTIMANDS",
+      "secondary_verdict": "JOINT_EQUIVALENCE_ON_NAMED_ESTIMANDS",
+      "fields_match": true
+    }
+  ],
+  "fixture_count": 6,
+  "all_match": true
+}

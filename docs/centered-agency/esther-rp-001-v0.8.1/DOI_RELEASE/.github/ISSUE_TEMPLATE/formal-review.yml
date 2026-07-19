@@ -1,0 +1,41 @@
+name: Formal or conceptual review
+description: Report a formal inconsistency, conceptual concern, or claim-boundary issue.
+title: "[Review] "
+labels: ["review"]
+body:
+  - type: input
+    id: release
+    attributes:
+      label: Release tag and SHA-256
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - Formal methods / distributed systems
+        - Belief revision / decision theory
+        - Experimental methodology
+        - Quantum information / photonics
+        - Claim boundary
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: File and line range
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Minimal scenario or argument
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Proposed acceptance criterion
+    validations:
+      required: true

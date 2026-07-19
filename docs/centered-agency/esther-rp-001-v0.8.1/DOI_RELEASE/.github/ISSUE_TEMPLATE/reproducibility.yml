@@ -1,0 +1,29 @@
+name: Reproducibility report
+description: Report a clean reproduction, platform difference, or execution failure.
+title: "[Reproduction] "
+labels: ["reproducibility"]
+body:
+  - type: input
+    id: release
+    attributes:
+      label: Release tag and SHA-256
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Operating system, shell, Python, and dependency versions
+    validations:
+      required: true
+  - type: textarea
+    id: commands
+    attributes:
+      label: Exact commands
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Results, counts, and hashes
+    validations:
+      required: true

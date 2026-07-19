@@ -1,0 +1,54 @@
+{
+  "schema": "esther.rp001.v0.8.mutation_shard.v1",
+  "shard": 3,
+  "results": [
+    {
+      "mutant_id": "M13_RECONCILIATION_CLAIM_UPGRADE",
+      "source_path": "CODE/formal_v08.py",
+      "site_count": 1,
+      "diff_digest": "f473f148a574d9c753017d0299b4cc0cbe7fa6e03dc08e587918178829eafee9",
+      "target_node": "M13_RECONCILIATION_CLAIM_UPGRADE",
+      "expected_marker": "MUTANT_M13_RECONCILIATION_CEILING",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M13_RECONCILIATION_CEILING\n"
+    },
+    {
+      "mutant_id": "M14_EMPTY_CUT_REJECT",
+      "source_path": "CODE/formal_v08.py",
+      "site_count": 1,
+      "diff_digest": "e225f29c2e6ae524750059a8c7a88416df2c7eff20a60bf90c941a5a3bf203ff",
+      "target_node": "M14_EMPTY_CUT_REJECT",
+      "expected_marker": "MUTANT_M14_EMPTY_CUT",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M14_EMPTY_CUT\n"
+    },
+    {
+      "mutant_id": "M15_PREFIX_BINDING_BYPASS",
+      "source_path": "CODE/sioc_v08.py",
+      "site_count": 1,
+      "diff_digest": "66ed462cfe853233f3990563811b9706d9259440d687c3d11dcfcbdd8952fa9b",
+      "target_node": "M15_PREFIX_BINDING_BYPASS",
+      "expected_marker": "MUTANT_M15_PREFIX_BINDING",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M15_PREFIX_BINDING\n"
+    },
+    {
+      "mutant_id": "M16_UNIT_RECEIPT_BYPASS",
+      "source_path": "CODE/finalize_reports_v08.py",
+      "site_count": 1,
+      "diff_digest": "8e311be4fac472b3b0171671d7bfca819af7ab96c4983de633c7ea4cd5a2bc91",
+      "target_node": "M16_UNIT_RECEIPT_BYPASS",
+      "expected_marker": "MUTANT_M16_FULL_TEST_EVIDENCE",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M16_FULL_TEST_EVIDENCE\n"
+    }
+  ]
+}

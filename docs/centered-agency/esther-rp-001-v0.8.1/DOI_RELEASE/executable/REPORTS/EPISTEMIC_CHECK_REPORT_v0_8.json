@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "one_current_status_per_evidence": true,
+    "claim_aggregation_is_single_status": true,
+    "soc_decision_inside_action_universe": true,
+    "soc_selected_action_is_hard_safe": true
+  },
+  "decision": {
+    "decision": "ACQUIRE_INFO",
+    "decision_kind": "ACQUIRE_INFORMATION",
+    "reason": "POSITIVE_ROBUST_EVI",
+    "safe_actions": [
+      "ACQUIRE_INFO",
+      "ESCALATE",
+      "STOP"
+    ],
+    "relevant_models": [
+      "load-bearing",
+      "non-load-bearing"
+    ],
+    "evi": "1",
+    "action_universe_digest": "d6a8db3fbc0a81782fb74d39ecc4ce90a332be277f87e921198f7d1c39122386"
+  },
+  "pass": true
+}

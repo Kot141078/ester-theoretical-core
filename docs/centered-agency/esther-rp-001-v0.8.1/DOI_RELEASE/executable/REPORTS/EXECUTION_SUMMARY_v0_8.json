@@ -1,0 +1,24 @@
+{
+  "schema": "esther.rp001.v0.8.execution_summary.v1",
+  "v0_8_tests": 190,
+  "legacy_v0_7_tests": 177,
+  "thread_concurrency_rounds": 100,
+  "process_concurrency_rounds": 20,
+  "declared_mutants": 16,
+  "killed_mutants": 16,
+  "cross_analysis_fixtures": 6,
+  "checks": {
+    "formal": true,
+    "epistemic": true,
+    "sioc": true,
+    "endpoint": true,
+    "analysis": true,
+    "unit_tests": true,
+    "mutation": true,
+    "concurrency": true,
+    "cross_analysis": true,
+    "full_execution_negative_control": true
+  },
+  "pass": true,
+  "claim_boundary": "Bounded executable evidence only; no empirical continuity, consciousness, entity, production-security, or unbounded theorem claim."
+}

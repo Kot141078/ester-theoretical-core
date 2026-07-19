@@ -1,0 +1,17 @@
+{
+  "python_executable": "/opt/pyvenv/bin/python",
+  "commands": [
+    "PYTHONPATH=CODE python -B CODE/run_tests_v08.py --suite TESTS --pythonpath CODE --expected 190 --junit REPORTS/PYTEST_V08.xml --receipt REPORTS/PYTEST_V08_RECEIPT.json --stdout REPORTS/PYTEST_V08_STDOUT.txt --stderr REPORTS/PYTEST_V08_STDERR.txt",
+    "PYTHONPATH=CODE python -B CODE/run_tests_v08.py --suite LEGACY_V07/TESTS --pythonpath LEGACY_V07/CODE --expected 177 --junit REPORTS/PYTEST_LEGACY_V07.xml --receipt REPORTS/PYTEST_LEGACY_V07_RECEIPT.json --stdout REPORTS/PYTEST_LEGACY_V07_STDOUT.txt --stderr REPORTS/PYTEST_LEGACY_V07_STDERR.txt",
+    "PYTHONPATH=CODE python -B CODE/formal_v08.py > REPORTS/FORMAL_CHECK_REPORT_v0_8.json",
+    "PYTHONPATH=CODE python -B CODE/epistemic_v08.py > REPORTS/EPISTEMIC_CHECK_REPORT_v0_8.json",
+    "PYTHONPATH=CODE python -B CODE/sioc_v08.py > REPORTS/SIOC_CHECK_REPORT_v0_8.json",
+    "PYTHONPATH=CODE python -B CODE/endpoint_v08.py > REPORTS/ENDPOINT_CHECK_REPORT_v0_8.json",
+    "PYTHONPATH=CODE python -B CODE/analysis_v08.py > REPORTS/ANALYSIS_CHECK_REPORT_v0_8.json",
+    "PYTHONPATH=CODE python -B CODE/mutation_v08.py --shard 0..3 > REPORTS/MUTATION_SHARD_<n>_v0_8.json",
+    "PYTHONPATH=CODE python -B CODE/mutation_v08.py --merge REPORTS/MUTATION_SHARD_0_v0_8.json REPORTS/MUTATION_SHARD_1_v0_8.json REPORTS/MUTATION_SHARD_2_v0_8.json REPORTS/MUTATION_SHARD_3_v0_8.json > REPORTS/MUTATION_REPORT_v0_8.json",
+    "PYTHONPATH=CODE python -B CODE/concurrency_v08.py > REPORTS/CONCURRENCY_REPORT_v0_8.json",
+    "PYTHONPATH=CODE python -B TOOLS/negative_control_full_execution_v08.py > REPORTS/FULL_EXECUTION_NEGATIVE_CONTROL_v0_8.json",
+    "PYTHONPATH=CODE python -B CODE/finalize_reports_v08.py"
+  ]
+}

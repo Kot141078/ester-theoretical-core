@@ -1,0 +1,20 @@
+{
+  "schema": "esther.rp001.v0.8.full_execution_negative_control.v1",
+  "injected_marker": "V08_NEGATIVE_CONTROL_FAIL",
+  "current_runner_exit_code": 1,
+  "legacy_runner_exit_code": 0,
+  "finalizer_exit_code": 1,
+  "current_receipt": {
+    "collected_count": 190,
+    "executed_count": 190,
+    "passed_count": 189,
+    "failed_count": 1,
+    "pass": false
+  },
+  "unit_report_pass": false,
+  "execution_summary_unit_tests": false,
+  "execution_summary_pass": false,
+  "pass": true,
+  "stdout_tail": "............ [ 37%]\\n........................................................................ [ 75%]\\n.............F................................                           [100%]\\n=================================== FAILURES ===================================\\n___________ test_finalizer_never_uses_collect_only_as_pass_evidence ____________\\n\\n    def test_finalizer_never_uses_collect_only_as_pass_evidence():\\n>       assert False, \\\"V08_NEGATIVE_CONTROL_FAIL\\\"\\nE       AssertionError: V08_NEGATIVE_CONTROL_FAIL\\nE       assert False\\n\\nTESTS/test_reproducibility_v08.py:178: AssertionError\\n=========================== short test summary info ============================\\nFAILED TESTS/test_reproducibility_v08.py::test_finalizer_never_uses_collect_only_as_pass_evidence - AssertionError: V08_NEGATIVE_CONTROL_FAIL\\nassert False\\n1 failed, 189 passed in 2.84s\\n\",\n  \"stderr_tail\": \"\",\n  \"pass\": false,\n  \"receipt_digest\": \"562d293ac041f6764013e0d1f69b20b5eeaab8af238937f033cee66a1be65ee0\"\n}\n",
+  "stderr_tail": ""
+}

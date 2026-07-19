@@ -1,0 +1,54 @@
+{
+  "schema": "esther.rp001.v0.8.mutation_shard.v1",
+  "shard": 2,
+  "results": [
+    {
+      "mutant_id": "M09_PLAN_DIGEST_BYPASS",
+      "source_path": "CODE/analysis_v08.py",
+      "site_count": 1,
+      "diff_digest": "757a6a901489ac4d074e2f6790e5e2f3e2f0816c1f1eb571c4c7675d5b763894",
+      "target_node": "M09_PLAN_DIGEST_BYPASS",
+      "expected_marker": "MUTANT_M09_PLAN_BINDING",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M09_PLAN_BINDING\n"
+    },
+    {
+      "mutant_id": "M10_AUTHORITY_OPTIONAL",
+      "source_path": "CODE/sioc_v08.py",
+      "site_count": 1,
+      "diff_digest": "17a4bf0d81e724d5ac005103646ee5721e2cc15f90c94a1273b297351753d4cc",
+      "target_node": "M10_AUTHORITY_OPTIONAL",
+      "expected_marker": "MUTANT_M10_AUTHORITY_EFFECT",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M10_AUTHORITY_EFFECT\n"
+    },
+    {
+      "mutant_id": "M11_SECONDARY_RANGE_BYPASS",
+      "source_path": "CODE/analysis_independent_v08.py",
+      "site_count": 1,
+      "diff_digest": "b52778730ac8cea6655bf038f615d27b3d6f9e85c5573fbbee960ff2030e84dc",
+      "target_node": "M11_SECONDARY_RANGE_BYPASS",
+      "expected_marker": "MUTANT_M11_SECONDARY_VALIDATION",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M11_SECONDARY_VALIDATION\n"
+    },
+    {
+      "mutant_id": "M12_GENERIC_FAILURE_AS_KILL",
+      "source_path": "CODE/mutation_v08.py",
+      "site_count": 1,
+      "diff_digest": "9809a1324e5c424bc26927c40b5cf0c5685224075626a0a98c0e8b3ee0e71e34",
+      "target_node": "M12_GENERIC_FAILURE_AS_KILL",
+      "expected_marker": "MUTANT_M12_ATTRIBUTION",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M12_ATTRIBUTION\n"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "esther.rp001.v0.8.mutation_shard.v1",
+  "shard": 0,
+  "results": [
+    {
+      "mutant_id": "M01_PREFIX_GUARD",
+      "source_path": "CODE/formal_v08.py",
+      "site_count": 1,
+      "diff_digest": "ec03e83f46ac7815246b13b018525fc5269ad188006424fdb19fe835044d98c6",
+      "target_node": "M01_PREFIX_GUARD",
+      "expected_marker": "MUTANT_M01_PREFIX_GUARD",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M01_PREFIX_GUARD\n"
+    },
+    {
+      "mutant_id": "M02_REQUEST_PREVALIDATION",
+      "source_path": "CODE/formal_v08.py",
+      "site_count": 1,
+      "diff_digest": "bab802a480982c799a0f50034b72b326f1d7fc201c184c48c3a2f37a26f27115",
+      "target_node": "M02_REQUEST_PREVALIDATION",
+      "expected_marker": "MUTANT_M02_ATOMIC_CUT",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M02_ATOMIC_CUT\n"
+    },
+    {
+      "mutant_id": "M03_CANONICAL_CREATION",
+      "source_path": "CODE/formal_v08.py",
+      "site_count": 1,
+      "diff_digest": "4837f29fa3559f209c3825144fe918490f7e81b87dae4e4d46e8de5ad85e63f5",
+      "target_node": "M03_CANONICAL_CREATION",
+      "expected_marker": "MUTANT_M03_CREATION_GUARD",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M03_CREATION_GUARD\n"
+    },
+    {
+      "mutant_id": "M04_ESCALATION_CHANGES_DEBTOR",
+      "source_path": "CODE/formal_v08.py",
+      "site_count": 1,
+      "diff_digest": "316d452661c0e3330477772a8c0b5d9d05959e9f50330bd18320c5657bdccdc8",
+      "target_node": "M04_ESCALATION_CHANGES_DEBTOR",
+      "expected_marker": "MUTANT_M04_ESCALATION_TRANSFER",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M04_ESCALATION_TRANSFER\n"
+    }
+  ]
+}

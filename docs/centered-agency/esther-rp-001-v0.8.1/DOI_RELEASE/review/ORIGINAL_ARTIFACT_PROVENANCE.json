@@ -1,0 +1,21 @@
+{
+  "schema": "esther.rp001.public_provenance.v1",
+  "exact_blind_review_packet": {
+    "name": "ESTHER_RP001_v0_8_1_BLIND_REVIEW_PACKET.zip",
+    "sha256": "38288d2000a8295c8eb8bc540c3fab4491aa66b1dca60a4d45135a957e4834f6",
+    "redistributed": false,
+    "reason": "The exact blind-review input contains Russian-language review materials; the public DOI release is English-only."
+  },
+  "original_phase2_report": {
+    "name": "SIXTH_BLIND_REVIEW_REPORT_RU.md",
+    "sha256": "78aa169a66c3652109cae0aa23034556781bc9900d1d5e32c4cb23a8c62a5780",
+    "redistributed_under_original_name": false,
+    "english_publication_copy": "review/SIXTH_BLIND_REVIEW_REPORT_EN.md"
+  },
+  "english_public_review_packet_prepublication_identity": {
+    "name": "ESTHER_RP001_v0_8_1_ENGLISH_REVIEW_PACKET.zip",
+    "sha256": "e154273e8fbe0900f17c03d7803adc3ca70f6757ff41ae78f0a36ce76f5b989f",
+    "note": "Identity recorded by the GitHub publication commit before DOI-bound repackaging."
+  },
+  "claim": "The English DOI package is a publication derivative and is not byte-identical to the exact blind-review input."
+}

@@ -1,0 +1,7 @@
+{
+  "thread_rounds": 100,
+  "process_rounds": 20,
+  "thread_failures": [],
+  "process_failures": [],
+  "pass": true
+}

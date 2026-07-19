@@ -1,0 +1,32 @@
+name: Full bounded gate
+on:
+  workflow_dispatch:
+jobs:
+  linux-full:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: releases/esther-rp-001-v0.8.1/executable
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: python -m pip install -r requirements-v0.8.txt
+      - run: bash RUN_ALL_V08.sh
+  windows-full:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: releases/esther-rp-001-v0.8.1/executable
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: python -m pip install -r requirements-v0.8.txt
+      - shell: pwsh
+        run: |
+          $py = (Get-Command python).Source
+          .\RUN_ALL_V08.ps1 -PythonExe $py
+          .\TOOLS\VERIFY_WINDOWS_RUNNER_V08.ps1 -PythonExe $py

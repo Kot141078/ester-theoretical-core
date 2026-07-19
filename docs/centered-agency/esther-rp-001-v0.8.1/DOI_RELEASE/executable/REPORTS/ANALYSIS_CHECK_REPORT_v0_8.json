@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "sealed_plan_accepts_original": true,
+    "same_plan_id_changed_content_rejected": true,
+    "exact_endpoint_universe": true
+  },
+  "verdict": "JOINT_EQUIVALENCE_ON_NAMED_ESTIMANDS",
+  "pass": true
+}

@@ -1,0 +1,51 @@
+{
+  "title": "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty",
+  "version": "0.8.1",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "publication_date": "2026-07-19",
+  "creators": [
+    {
+      "name": "Kotov, Ivan",
+      "orcid": "0009-0009-6002-9845",
+      "affiliation": "Independent Researcher, Brussels, Belgium"
+    }
+  ],
+  "description": "<p>ESTHER-RP-001 is an English public working paper and bounded executable research package on centered agency under persistent uncertainty.</p><p>It formalizes causal memory, selective operational commitment, temporal witness, obligation continuity, auditable substrate interaction, and a falsifiable matched persistent-profile control programme.</p><p>The release includes the full English manuscript, normative specifications, reference implementations, tests, reproducibility receipts, and open human-review and endpoint-rater calls. It does not claim consciousness, personhood, AGI, empirical continuity, production security, or quantum necessity.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "Project Ester",
+    "centered agency",
+    "persistent uncertainty",
+    "causal memory",
+    "selective operational commitment",
+    "temporal witness",
+    "belief revision",
+    "obligation continuity",
+    "multi-substrate computation",
+    "matched profile-control",
+    "open review",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20679718",
+      "relation": "isNewVersionOf"
+    },
+    {
+      "identifier": "https://github.com/Kot141078/ester-theoretical-core",
+      "relation": "isIdenticalTo"
+    },
+    {
+      "identifier": "https://ivankotov.eu/publications/esther-rp-001/",
+      "relation": "isDocumentedBy"
+    },
+    {
+      "identifier": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1",
+      "relation": "isSupplementedBy"
+    }
+  ],
+  "notes": "Scientific core v0.8; v0.8.1 includes the reviewed Windows runner hotfix and English-only DOI-bound public-release packaging. Reserved version DOI: 10.5281/zenodo.21443105."
+}

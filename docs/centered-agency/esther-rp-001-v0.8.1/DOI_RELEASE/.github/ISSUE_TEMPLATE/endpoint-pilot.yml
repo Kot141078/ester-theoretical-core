@@ -1,0 +1,22 @@
+name: Endpoint-rater pilot feedback
+description: Report codebook ambiguity or volunteer for the external rating pilot.
+title: "[Endpoint pilot] "
+labels: ["endpoint-pilot"]
+body:
+  - type: dropdown
+    id: role
+    attributes:
+      label: Contribution
+      options:
+        - Volunteer as independent rater
+        - Codebook ambiguity
+        - Scoring-method critique
+        - Pilot design critique
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true

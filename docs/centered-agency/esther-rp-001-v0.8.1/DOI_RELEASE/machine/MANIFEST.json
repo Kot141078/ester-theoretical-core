@@ -1,0 +1,578 @@
+{
+  "schema": "esther.rp001.english_doi_release.manifest.v1",
+  "release": "ESTHER-RP-001 v0.8.1",
+  "doi": "10.5281/zenodo.21443105",
+  "file_count": 114,
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "size_bytes": 27,
+      "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/endpoint-pilot.yml",
+      "size_bytes": 552,
+      "sha256": "e82f09e73bc9664317a43c151e62f81d8e851c8e58f03e024ac720dc544058e1"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/formal-review.yml",
+      "size_bytes": 996,
+      "sha256": "fad79ad256f18b13563e6657a205c34066c85da08930af32b4b2e17000950c09"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/reproducibility.yml",
+      "size_bytes": 707,
+      "sha256": "ac006928379bae27027bf92d013ee2b14d98a7c82b6daae4af6598d48842ada9"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size_bytes": 775,
+      "sha256": "2dc146cb315f227784ac08339280cf08ace13a4977b97f5d3d58c01228124b97"
+    },
+    {
+      "path": ".github/workflows/full-gate.yml",
+      "size_bytes": 924,
+      "sha256": "7f68deb06adad4d0c3be1766123be4465b3882920f839f242c70a1031d1cc353"
+    },
+    {
+      "path": ".zenodo.json",
+      "size_bytes": 2178,
+      "sha256": "d2ec2bd8d0873ba18792a128a76ed115e85548ed9a839f963d9637c799c3e929"
+    },
+    {
+      "path": "AI_ASSISTANCE_DISCLOSURE.md",
+      "size_bytes": 715,
+      "sha256": "dd5538722dbf8182c2714f0252558abfcee6d56198f63343f4f8d58b83d44f20"
+    },
+    {
+      "path": "CITATION.bib",
+      "size_bytes": 465,
+      "sha256": "35526c6ec30923b4ebdf5840f1dbb852d785ec510ad0c358784d24101faff4ac"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 1630,
+      "sha256": "c15d37b5cd95eda0fdd4838d0d0ada6a877a9274335857ca3d52c1a6c2cbe0b1"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size_bytes": 673,
+      "sha256": "542bca5b2196929f224d9a94b8810af60721340aa13f0c4cffb022f49cb642ca"
+    },
+    {
+      "path": "LANGUAGE_POLICY.md",
+      "size_bytes": 564,
+      "sha256": "5c211b4b2b4730c6392d26c2a1d39507142701c0b7c8b18e569a0023f4f53560"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    },
+    {
+      "path": "LICENSE_POLICY.md",
+      "size_bytes": 510,
+      "sha256": "ac04466cf038a0d36fac1b053b7b841f67be8d44b11f63152d8d1492c6397900"
+    },
+    {
+      "path": "OPEN_REVIEW_AND_TESTING_EN.md",
+      "size_bytes": 1807,
+      "sha256": "8f9e72c21b2308b62b3001566b30839c4ee6dfae6000ab00da715c5cd482fea2"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2888,
+      "sha256": "5b177ba38a53ef971384584cf1c529d5ad9c616a103ce8295634f88607522fe6"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size_bytes": 1804,
+      "sha256": "ce2acc55c8b2215864e9f99468350d93c4565317ae511442d9dde7858e403f89"
+    },
+    {
+      "path": "ZENODO_METADATA_EN.md",
+      "size_bytes": 1780,
+      "sha256": "934d0cc7643cc20c9582933117631c2dd37512e2070cd4c73c2edff4302593e7"
+    },
+    {
+      "path": "article/ESTHER_RP_001_v0_8_1_EN.docx",
+      "size_bytes": 36485,
+      "sha256": "2ed6861715b8ad3d95956e8bd11137f053a9ef5744c407fbf4836eb09dfd7270"
+    },
+    {
+      "path": "article/ESTHER_RP_001_v0_8_1_EN.md",
+      "size_bytes": 20019,
+      "sha256": "ecd8d6371d3f1e0caadcd1095eba8e950d1776c0324a8fccd432036201715880"
+    },
+    {
+      "path": "article/ESTHER_RP_001_v0_8_1_EN.pdf",
+      "size_bytes": 142601,
+      "sha256": "8a0a51cf82f8e22f49fa46e00f320e0fd98038a6cd0437b1c1861410496b13d9"
+    },
+    {
+      "path": "brief/ESTHER_RP_001_PUBLIC_BRIEF_EN.docx",
+      "size_bytes": 32713,
+      "sha256": "9fe2468a860a79842783af3f5a6feb4299481eb8b06e0ad608da472b28e85a64"
+    },
+    {
+      "path": "brief/ESTHER_RP_001_PUBLIC_BRIEF_EN.md",
+      "size_bytes": 13839,
+      "sha256": "5da37ee8f88eba8197fc7f141a12c60da8ed3027f6bd0f538691c6efa56e97b2"
+    },
+    {
+      "path": "brief/ESTHER_RP_001_PUBLIC_BRIEF_EN.pdf",
+      "size_bytes": 104362,
+      "sha256": "48cdda1a1175c7d03609ef657f3f170079433b78170cdf43af1ebc882ec553fe"
+    },
+    {
+      "path": "codemeta.json",
+      "size_bytes": 1538,
+      "sha256": "a675a23288506c59836890d9664c6c7ead1fe38fd919c5f5a66352b51f842f0a"
+    },
+    {
+      "path": "executable/CODE/analysis_independent_v08.py",
+      "size_bytes": 7665,
+      "sha256": "decf0944864c9227cf6a6b8ebe6e7ac608cad31e4d00d230204e04d9b1bd4813"
+    },
+    {
+      "path": "executable/CODE/analysis_v08.py",
+      "size_bytes": 12324,
+      "sha256": "c91543937a026cff319d39e151f9ea0ba35821e0255424763b038df32e295c7d"
+    },
+    {
+      "path": "executable/CODE/common_v08.py",
+      "size_bytes": 3204,
+      "sha256": "91ca4c5bc9b4b9e6ac8e2b56dc8cb9008106b5426ae77d7e7cd4bf27f2a56a2f"
+    },
+    {
+      "path": "executable/CODE/concurrency_v08.py",
+      "size_bytes": 4932,
+      "sha256": "c0819dbb65b0a6f2e43530b3c622f29cb7da91d6df2cab1940b02fc744e10668"
+    },
+    {
+      "path": "executable/CODE/endpoint_v08.py",
+      "size_bytes": 12056,
+      "sha256": "a935190046c1cbe98f9e8b83e744ddf02e7ee92665fd03d362deb47a8f951885"
+    },
+    {
+      "path": "executable/CODE/epistemic_v08.py",
+      "size_bytes": 19310,
+      "sha256": "f88c19ea979ed5a2cf207c2e78b8f3e82c06062fc1d55cf8ff989a240d6fc9fe"
+    },
+    {
+      "path": "executable/CODE/finalize_reports_v08.py",
+      "size_bytes": 12858,
+      "sha256": "7aa81ad310e6f4a22984f54321b5ecf8c5fb0f70718614246cd272886ba1d69b"
+    },
+    {
+      "path": "executable/CODE/formal_v08.py",
+      "size_bytes": 39450,
+      "sha256": "7de17b284439684b0156cacab96ae2a2bbb77b2e596c25802cad0000ebdf720e"
+    },
+    {
+      "path": "executable/CODE/mutation_v08.py",
+      "size_bytes": 11949,
+      "sha256": "b0dd63a8a6dd0d7ce8ef308e4ae5b1a92eded37337d845e14deafb56dbe2a185"
+    },
+    {
+      "path": "executable/CODE/run_tests_v08.py",
+      "size_bytes": 5024,
+      "sha256": "2e625a97acb53cf244782031f97b648631a16c0521610a6d5c3798dd9eeda61d"
+    },
+    {
+      "path": "executable/CODE/sioc_store_v08.py",
+      "size_bytes": 16592,
+      "sha256": "42646600ebb772176c4f5c3208f923eb837a4c56a814ed6126035b5a24c4b1bb"
+    },
+    {
+      "path": "executable/CODE/sioc_v08.py",
+      "size_bytes": 19817,
+      "sha256": "13eac063b714bf132747e191d4fee17a1314ad8ffcc664d1fc1445ce80b77b94"
+    },
+    {
+      "path": "executable/LEGACY_V07/CODE/analysis_independent_v07.py",
+      "size_bytes": 7665,
+      "sha256": "2779520570b7d1648e95fc498c76c6f840bc02c750fc9e46fdeb5a905e7085f4"
+    },
+    {
+      "path": "executable/LEGACY_V07/CODE/analysis_v07.py",
+      "size_bytes": 12324,
+      "sha256": "092982926d6ff79987ec86448a4c0c92dfecd858d11a10a90e42aefdece252a5"
+    },
+    {
+      "path": "executable/LEGACY_V07/CODE/common_v07.py",
+      "size_bytes": 3204,
+      "sha256": "91ca4c5bc9b4b9e6ac8e2b56dc8cb9008106b5426ae77d7e7cd4bf27f2a56a2f"
+    },
+    {
+      "path": "executable/LEGACY_V07/CODE/concurrency_v07.py",
+      "size_bytes": 4534,
+      "sha256": "c01c74949d1e8afd348493ef90b6cc5af133ae05ffd62126f84a09506d4feaeb"
+    },
+    {
+      "path": "executable/LEGACY_V07/CODE/endpoint_v07.py",
+      "size_bytes": 12056,
+      "sha256": "8f3705a1b36792658763d309b2d12f0b76208414f83cdbf7a6ab3bf54edb2378"
+    },
+    {
+      "path": "executable/LEGACY_V07/CODE/epistemic_v07.py",
+      "size_bytes": 19310,
+      "sha256": "0a694da819e66e669f6cf27eb223be38ce0a7faf24a5d3d4ce5a3035a744f343"
+    },
+    {
+      "path": "executable/LEGACY_V07/CODE/finalize_reports_v07.py",
+      "size_bytes": 8801,
+      "sha256": "5e983f176d5d64bc07f9b606efdc5b10c1e9535eee34e041eb5ccd89f5de44ba"
+    },
+    {
+      "path": "executable/LEGACY_V07/CODE/formal_v07.py",
+      "size_bytes": 38095,
+      "sha256": "b8facb7660590d67ca8036b875e162b3a3cd11e320ca2b21ce708eb5f6d0b4f2"
+    },
+    {
+      "path": "executable/LEGACY_V07/CODE/mutation_v07.py",
+      "size_bytes": 8611,
+      "sha256": "4fcf766b3e5a2cf16bd1f4011fe3ad18b4d24d803d458f862ba4357e64607d18"
+    },
+    {
+      "path": "executable/LEGACY_V07/CODE/sioc_store_v07.py",
+      "size_bytes": 14241,
+      "sha256": "a1af02f81df01e924ff99dd2da8d977996161ee860968ec6ea196d95da1a005b"
+    },
+    {
+      "path": "executable/LEGACY_V07/CODE/sioc_v07.py",
+      "size_bytes": 18012,
+      "sha256": "f3fdf3cdfae9218725cc7a092b83abd37931d675bdf55e856169f03e528655f1"
+    },
+    {
+      "path": "executable/LEGACY_V07/TESTS/mutation_runner_v07.py",
+      "size_bytes": 7099,
+      "sha256": "15d5d0eb26450b46aeeaeb2b2ffebbd0b053988bae0fbe9859eb20629f2ba9f7"
+    },
+    {
+      "path": "executable/LEGACY_V07/TESTS/mutation_targets_v07.py",
+      "size_bytes": 6019,
+      "sha256": "7722e0462138213d4d90e213351db32b04cbe7984ce9e88c64252f3777244cff"
+    },
+    {
+      "path": "executable/LEGACY_V07/TESTS/test_analysis_v07.py",
+      "size_bytes": 9647,
+      "sha256": "d5e95b27553032347089329c490aa1d2b7e5eed3a8b5ac3c282b323abb826aaf"
+    },
+    {
+      "path": "executable/LEGACY_V07/TESTS/test_endpoint_v07.py",
+      "size_bytes": 7642,
+      "sha256": "d4423d47dd8de08bb5ca049fe52f74682e99fad8755e079db4fe3294327f8325"
+    },
+    {
+      "path": "executable/LEGACY_V07/TESTS/test_epistemic_v07.py",
+      "size_bytes": 11127,
+      "sha256": "6ac78666fb94e4b3e216cfbbc864f651a94f52bcfd224388763b21f300cf4c1f"
+    },
+    {
+      "path": "executable/LEGACY_V07/TESTS/test_formal_v07.py",
+      "size_bytes": 13304,
+      "sha256": "99e06f5ee937352d5f5885946c349cff78c7fd94fa03676947b98865d8ff782b"
+    },
+    {
+      "path": "executable/LEGACY_V07/TESTS/test_sioc_v07.py",
+      "size_bytes": 11641,
+      "sha256": "89868a45a0fe02d7a45d69aa7b04e1b286d53f2bc454493a4de4102fd4a8ff70"
+    },
+    {
+      "path": "executable/README.md",
+      "size_bytes": 609,
+      "sha256": "953bc4cfab748b66bacde93ed3e9af166e5acd62847d7f8815ea79b79e45f92b"
+    },
+    {
+      "path": "executable/REPORTS/ANALYSIS_CHECK_REPORT_v0_8.json",
+      "size_bytes": 220,
+      "sha256": "1698019421090e8d1f1baab827f3e1d0c152dfe643f4b29cdd39029f06a5b098"
+    },
+    {
+      "path": "executable/REPORTS/CONCURRENCY_REPORT_v0_8.json",
+      "size_bytes": 118,
+      "sha256": "c7d07709e4d2ec857f9d423daf3c9880e789c8da901794912f0b3a3c80ef9291"
+    },
+    {
+      "path": "executable/REPORTS/CROSS_IMPLEMENTATION_ANALYSIS_REPORT_v0_8.json",
+      "size_bytes": 1370,
+      "sha256": "2e9a09a8b52af3f43469171191610f790b30b72006a82b44a89acf7fe707b3a9"
+    },
+    {
+      "path": "executable/REPORTS/ENDPOINT_CHECK_REPORT_v0_8.json",
+      "size_bytes": 117,
+      "sha256": "51c03bfdf103b15c6c1b49a2bbaf03e4c7f6c7a885d4480118afde798afb4cd3"
+    },
+    {
+      "path": "executable/REPORTS/ENVIRONMENT_v0_8.json",
+      "size_bytes": 267,
+      "sha256": "bb59065e49abc943500f80346451dea312b39727b4d85e9a2f5a537db7d2ed5f"
+    },
+    {
+      "path": "executable/REPORTS/EPISTEMIC_CHECK_REPORT_v0_8.json",
+      "size_bytes": 633,
+      "sha256": "f32b3ef636a4d12bfb5dd427607b0c73e585d37e9d1e47ed49943944d7255446"
+    },
+    {
+      "path": "executable/REPORTS/EXECUTION_SUMMARY_v0_8.json",
+      "size_bytes": 697,
+      "sha256": "7d0e6c009a77ec2737d3877885315ff5d860efab8c323fb369c749ab9ea98125"
+    },
+    {
+      "path": "executable/REPORTS/FINALIZER_STDOUT_v0_8.json",
+      "size_bytes": 697,
+      "sha256": "7d0e6c009a77ec2737d3877885315ff5d860efab8c323fb369c749ab9ea98125"
+    },
+    {
+      "path": "executable/REPORTS/FORMAL_CHECK_REPORT_v0_8.json",
+      "size_bytes": 521,
+      "sha256": "3a022e8d0674a896722e96d73364c5b1e196df45c342f77bb10790f192aa1e6e"
+    },
+    {
+      "path": "executable/REPORTS/FULL_EXECUTION_NEGATIVE_CONTROL_v0_8.json",
+      "size_bytes": 1562,
+      "sha256": "697837d189fa823c2181b256b2f76df2e4f028648684821ed5ba268a343058e6"
+    },
+    {
+      "path": "executable/REPORTS/MUTATION_REPORT_v0_8.json",
+      "size_bytes": 7512,
+      "sha256": "e9ba9d2f162e19e75b73d79d8bbab60fc6b44f4ac7bb820826f5f8b82a8df7a9"
+    },
+    {
+      "path": "executable/REPORTS/MUTATION_SHARD_0_v0_8.json",
+      "size_bytes": 1861,
+      "sha256": "13b0a8ad93d89b882197d723d8b51cbcf2421319e74fd3668c6ddf7611c0f0f8"
+    },
+    {
+      "path": "executable/REPORTS/MUTATION_SHARD_1_v0_8.json",
+      "size_bytes": 1873,
+      "sha256": "5fda145f9cbe0268cdedd5c69328d0aa5bd57f0962c6a2643be1d50d55f4affc"
+    },
+    {
+      "path": "executable/REPORTS/MUTATION_SHARD_2_v0_8.json",
+      "size_bytes": 1895,
+      "sha256": "841472ec8c088687ccf09ec4a8a60880b971f35af8b09413ab4663a411ad5cb6"
+    },
+    {
+      "path": "executable/REPORTS/MUTATION_SHARD_3_v0_8.json",
+      "size_bytes": 1901,
+      "sha256": "98f60620afff6692376b1cc8a7682aa446529814f64859276ef9633895f7970f"
+    },
+    {
+      "path": "executable/REPORTS/PYTEST_LEGACY_V07.xml",
+      "size_bytes": 23628,
+      "sha256": "ba711b99b2837e858e710a4465681b062b5aa1faa1fecc31654fd961dce414fc"
+    },
+    {
+      "path": "executable/REPORTS/PYTEST_LEGACY_V07_RECEIPT.json",
+      "size_bytes": 1499,
+      "sha256": "502fe174f8d106fe7183c986455bfe0a1fa722cb7cb41c1cbca5cade46ab5101"
+    },
+    {
+      "path": "executable/REPORTS/PYTEST_LEGACY_V07_STDERR.txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "executable/REPORTS/PYTEST_LEGACY_V07_STDOUT.txt",
+      "size_bytes": 260,
+      "sha256": "8ec9542b58b3d065234ec0035827fbfa5edfe76f05bf42945cd0ab69ede130ae"
+    },
+    {
+      "path": "executable/REPORTS/PYTEST_V08.xml",
+      "size_bytes": 23237,
+      "sha256": "422dfcafc9114f6131bb6db67e006cfb4051cea414972715be64060e300a5862"
+    },
+    {
+      "path": "executable/REPORTS/PYTEST_V08_RECEIPT.json",
+      "size_bytes": 1438,
+      "sha256": "3358943629a7d0b7dfcc2d929a0cce661717647b91835d54f0698f43fba90e92"
+    },
+    {
+      "path": "executable/REPORTS/PYTEST_V08_STDERR.txt",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "executable/REPORTS/PYTEST_V08_STDOUT.txt",
+      "size_bytes": 260,
+      "sha256": "ccab314e75ef86c376d52b2196d1badfc5def4bd1ac1f8ca0a993f1a0f163a78"
+    },
+    {
+      "path": "executable/REPORTS/REPRODUCTION_COMMANDS_v0_8.json",
+      "size_bytes": 1730,
+      "sha256": "d9d97215410e246ba09e0c9b160d1507728b0fee8b2b1e533e8d73eedc5665df"
+    },
+    {
+      "path": "executable/REPORTS/SIOC_CHECK_REPORT_v0_8.json",
+      "size_bytes": 190,
+      "sha256": "6ebd0f337ae2267628a2824c9ac1167d9857ea1a7be0cf2c23a4e739240f1e3f"
+    },
+    {
+      "path": "executable/REPORTS/UNIT_TEST_REPORT_v0_8.json",
+      "size_bytes": 5815,
+      "sha256": "bdffd27a02249453c0fefa559d25e9143b277ee44d6ef7f2efddd589354f6e27"
+    },
+    {
+      "path": "executable/RUN_ALL_V08.ps1",
+      "size_bytes": 3686,
+      "sha256": "a4a4eebd05d87b1b2804b2fc7c680d74f45af03bb0b391df53c9bd48a6394654"
+    },
+    {
+      "path": "executable/RUN_ALL_V08.sh",
+      "size_bytes": 1915,
+      "sha256": "d8141817714ea6be529d7a92bd974e5a754ad23a25ab0d4b2acbb7c703c03e80"
+    },
+    {
+      "path": "executable/SHA256SUMS.txt",
+      "size_bytes": 6839,
+      "sha256": "4e5ff52403917356c05ff09b7cf4a8a0098ab34736ff917fbd8ad11b446faa75"
+    },
+    {
+      "path": "executable/TESTS/mutation_runner_v08.py",
+      "size_bytes": 12372,
+      "sha256": "4337b3459bf6e17f428ccd7c5a42d3a5a82be0ce874cb93febb964920021ee1b"
+    },
+    {
+      "path": "executable/TESTS/mutation_targets_v08.py",
+      "size_bytes": 9394,
+      "sha256": "dac0ed4314e417cf74e0d1afcc59b64b49c8f73e975020bc4316cade7d45ef70"
+    },
+    {
+      "path": "executable/TESTS/test_analysis_v08.py",
+      "size_bytes": 9647,
+      "sha256": "8bf3975bd025d1f14c0268f8c1c85ad726e1495409b0c010d0df0e95e75d7795"
+    },
+    {
+      "path": "executable/TESTS/test_endpoint_v08.py",
+      "size_bytes": 7642,
+      "sha256": "51c50d2cd15097531ee61aef581e734118a0f6aadec1c2091825d93e5519c388"
+    },
+    {
+      "path": "executable/TESTS/test_epistemic_v08.py",
+      "size_bytes": 11127,
+      "sha256": "9870cb03124007d9adb6b647562ceb37f3039aa7381e4256248885cf87d92f42"
+    },
+    {
+      "path": "executable/TESTS/test_formal_v08.py",
+      "size_bytes": 14306,
+      "sha256": "2603cf8c0b076f93b61c176ecbb7f66b2ba696942b59b38bb716eceefebf8323"
+    },
+    {
+      "path": "executable/TESTS/test_reproducibility_v08.py",
+      "size_bytes": 7143,
+      "sha256": "c1adf6427d964f31ea7acfb0dff844d831c6276069ccd498cbeffbea8a729102"
+    },
+    {
+      "path": "executable/TESTS/test_sioc_v08.py",
+      "size_bytes": 17899,
+      "sha256": "2c14680c493c07eb07ed1b1847dd9f967b3f3e091b6af82b0f06d9057557b5c0"
+    },
+    {
+      "path": "executable/TOOLS/VERIFY_WINDOWS_RUNNER_V08.ps1",
+      "size_bytes": 2883,
+      "sha256": "78d6b7dae9f1e1981ea1cd19d666cc8212b7976375b39395d2df2049e65f863d"
+    },
+    {
+      "path": "executable/TOOLS/negative_control_full_execution_v08.py",
+      "size_bytes": 5892,
+      "sha256": "4ea4eab284dbecded9f92206d57e272dfbfe59fa9bdc8af7292cfdae418c6fb5"
+    },
+    {
+      "path": "executable/requirements-v0.8.txt",
+      "size_bytes": 41,
+      "sha256": "6ea314d7907722d5bd0d3239bdefb9adcb96d0bf63dad4279cc73b956ef56b93"
+    },
+    {
+      "path": "machine/BUILD_VALIDATION.json",
+      "size_bytes": 2070,
+      "sha256": "57f0d5deef758ef6b704cef703a2919702e3a0faa6eb8fd99553c29ddea0eaf0"
+    },
+    {
+      "path": "machine/RELEASE_IDENTITY.json",
+      "size_bytes": 1203,
+      "sha256": "a9d5ccd08b7931e898e973e8d4758d4f985ff11f347bbc166225a6d583f7c7c7"
+    },
+    {
+      "path": "review/BLIND_PACKET_SHA256SUMS.txt",
+      "size_bytes": 7606,
+      "sha256": "4ab24fb98ef603a52076d2635fbf2895d13269b142c7a03583e7ee1a2d3f8912"
+    },
+    {
+      "path": "review/ORIGINAL_ARTIFACT_PROVENANCE.json",
+      "size_bytes": 1100,
+      "sha256": "f7e3b6c4cec830752f9e58b3716b8ad4276b0da0bec5c34734107b55401c1a5f"
+    },
+    {
+      "path": "review/REVIEW_STATUS.md",
+      "size_bytes": 1115,
+      "sha256": "5555b6c0b53871b62a6cade5083c4fa4196b3c1f8a3b71eb1e786f69ad914d43"
+    },
+    {
+      "path": "review/SIXTH_BLIND_REVIEW_REPORT_EN.md",
+      "size_bytes": 7966,
+      "sha256": "836a94f1580423f58fae91cd9996cacd90d9be9a656d400c427dd00e7023c501"
+    },
+    {
+      "path": "review/SIXTH_BLIND_REVIEW_RESULT.json",
+      "size_bytes": 2746,
+      "sha256": "6644d7dc28dad1cd1212702c79acbfd7098bdf9c49c485d3ae4b719aecb7c5af"
+    },
+    {
+      "path": "review/SIXTH_BLIND_REVIEW_VERDICT.txt",
+      "size_bytes": 28,
+      "sha256": "f921214d3e46370a2c3c9ae697bd75757266d0548abc9caddcb9a8d90bba1378"
+    },
+    {
+      "path": "review/WINDOWS_PHASE1_REPRO_RESULT.json",
+      "size_bytes": 12878,
+      "sha256": "f04307d6f54b6a11dc3f235230b1b36a8fadc5312ce21db8f0163bcbbb69e42f"
+    },
+    {
+      "path": "specifications/ESTHER_RP_001_SPEC_A_TEMPORAL_AUTHORITY_EN.md",
+      "size_bytes": 1999,
+      "sha256": "f5de840a03185bda81eb21ba54d92c66bcf145b4876c0222d0c5cfd65e7db64f"
+    },
+    {
+      "path": "specifications/ESTHER_RP_001_SPEC_B_OBLIGATION_EVIDENCE_EN.md",
+      "size_bytes": 1074,
+      "sha256": "1195b3c2eab7f6a589aa8bdb15e49c5956d4a3c57b9d6c6fcbf5da52e88547f9"
+    },
+    {
+      "path": "specifications/ESTHER_RP_001_SPEC_C_SOC_SIOC_EN.md",
+      "size_bytes": 1771,
+      "sha256": "8883befbc4597396726a4a40d787c16d4dd1fa4d3fd05040169b8cb9966ed375"
+    },
+    {
+      "path": "specifications/ESTHER_RP_001_SPEC_D_MEASUREMENT_EN.md",
+      "size_bytes": 1248,
+      "sha256": "fc2c4d46348db1c92b48b3302b7df0a1a0fcc8b9753d3635aec90488f16b7dae"
+    },
+    {
+      "path": "specifications/ESTHER_RP_001_SPEC_E_REPRODUCIBILITY_EN.md",
+      "size_bytes": 1529,
+      "sha256": "9333c41158ed7bb0d8bcac1ad3a11c63cb457af11961fec7c24b60957cdbdab3"
+    },
+    {
+      "path": "specifications/KNOWN_LIMITATIONS_EN.md",
+      "size_bytes": 1252,
+      "sha256": "97080a24fe8368b6ed8358584221217ec10a469b2484cde7b040e993e53084ff"
+    },
+    {
+      "path": "templates/ENDPOINT_RATER_TEMPLATE.csv",
+      "size_bytes": 113,
+      "sha256": "7e7847f1aecf2dbdf1bc3e886deff9d0027597bc0c55b5c1e00c936bb3101525"
+    },
+    {
+      "path": "templates/HUMAN_CONCEPTUAL_REVIEW_FORM_EN.md",
+      "size_bytes": 813,
+      "sha256": "0980bb547bf4538abc9781f514b904ce3a4b5bf5f4135e2c25197d8aaf89fe2e"
+    },
+    {
+      "path": "templates/REPRODUCTION_REPORT_TEMPLATE.md",
+      "size_bytes": 455,
+      "sha256": "7130718156d703b5b102e755e97c5fc5442c468ee32aa7cd7b934cff1b736490"
+    }
+  ]
+}

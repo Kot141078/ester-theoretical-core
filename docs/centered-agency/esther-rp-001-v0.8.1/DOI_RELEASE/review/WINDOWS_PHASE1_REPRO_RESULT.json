@@ -1,0 +1,338 @@
+{
+  "schema": "esther.rp001.v0.8.1.phase1.repro_result.v1",
+  "verdict": "PASS",
+  "generated_at": "2026-07-19T11:55:19.6654607+02:00",
+  "scope": "Phase 1 reproducibility only; no conceptual review; no Phase 2.",
+  "network_used": false,
+  "authoritative_execution_copy": "C:\\Users\\kotov\\Downloads\\555\\ESTHER_V081_PHASE1_REPRO\\_codex_runs\\phase1_repro_20260719_114340\\execution_copy_ps7",
+  "shell": {
+    "executable": "pwsh.exe",
+    "version": "7.5.8"
+  },
+  "python": {
+    "path": "C:\\Python310\\python.exe",
+    "version": "Python 3.10.11"
+  },
+  "checks": {
+    "input_zip_sha256_match": true,
+    "contract_sha256_match": true,
+    "packet_manifest_all_match": true,
+    "v0_8_full_pytest_190_passed": true,
+    "legacy_v0_7_full_pytest_177_passed": true,
+    "thread_rounds_100": true,
+    "process_rounds_20": true,
+    "source_mutants_16_of_16_killed": true,
+    "analysis_fixtures_6_of_6": true,
+    "full_test_negative_control_pass": true,
+    "python_repl_prompt_absent": true,
+    "runner_clean_exit_0": true,
+    "verifier_exit_0": true,
+    "failing_copy_runner_exit_nonzero": true,
+    "failing_copy_test_count_unchanged_190": true,
+    "only_reports_changed": true,
+    "ui_safety_message_absent": true
+  },
+  "command_log": [
+    {
+      "command": ".\\RUN_ALL_V08.ps1 -PythonExe 'C:\\Python310\\python.exe'",
+      "shell": "pwsh.exe",
+      "shell_version": "7.5.8",
+      "working_directory": "C:\\Users\\kotov\\Downloads\\555\\ESTHER_V081_PHASE1_REPRO\\_codex_runs\\phase1_repro_20260719_114340\\execution_copy_ps7",
+      "started_at": "2026-07-19T11:50:06.2775872+02:00",
+      "ended_at": "2026-07-19T11:50:48.9496532+02:00",
+      "duration_seconds": 42.672,
+      "exit_code": 0,
+      "stdout_path": "C:\\Users\\kotov\\Downloads\\555\\ESTHER_V081_PHASE1_REPRO\\_codex_runs\\phase1_repro_20260719_114340\\command_logs_ps7\\01_RUN_ALL_V08.stdout.txt",
+      "stderr_path": "C:\\Users\\kotov\\Downloads\\555\\ESTHER_V081_PHASE1_REPRO\\_codex_runs\\phase1_repro_20260719_114340\\command_logs_ps7\\01_RUN_ALL_V08.stderr.txt",
+      "stdout_sha256": "8dd188917314ef4a323661173050e7154a8043433d8838a5d4bb53d29559c0f5",
+      "stderr_sha256": "d80f831929f178c6e1baef9910daf891deb8d67e9324ba395b8fa274b7d93578"
+    },
+    {
+      "command": ".\\TOOLS\\VERIFY_WINDOWS_RUNNER_V08.ps1 -PythonExe 'C:\\Python310\\python.exe'",
+      "shell": "pwsh.exe",
+      "shell_version": "7.5.8",
+      "working_directory": "C:\\Users\\kotov\\Downloads\\555\\ESTHER_V081_PHASE1_REPRO\\_codex_runs\\phase1_repro_20260719_114340\\execution_copy_ps7",
+      "started_at": "2026-07-19T11:51:00.8138772+02:00",
+      "ended_at": "2026-07-19T11:51:46.2778962+02:00",
+      "duration_seconds": 45.464,
+      "exit_code": 0,
+      "stdout_path": "C:\\Users\\kotov\\Downloads\\555\\ESTHER_V081_PHASE1_REPRO\\_codex_runs\\phase1_repro_20260719_114340\\command_logs_ps7\\02_VERIFY_WINDOWS_RUNNER_V08.stdout.txt",
+      "stderr_path": "C:\\Users\\kotov\\Downloads\\555\\ESTHER_V081_PHASE1_REPRO\\_codex_runs\\phase1_repro_20260719_114340\\command_logs_ps7\\02_VERIFY_WINDOWS_RUNNER_V08.stderr.txt",
+      "stdout_sha256": "2342468c601ae11f6e2a8783ea3a064a09e03d5a9c6431aacd3365b9ed85d185",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "junit": [
+    {
+      "file": "REPORTS/PYTEST_V08.xml",
+      "sha256": "b16456f0fa690bf8a266174367cd8719c3899984456ba4f58563fdb15d04dd57",
+      "tests_attr": 190,
+      "failures_attr": 0,
+      "errors_attr": 0,
+      "skipped_attr": 0,
+      "testcase_count": 190,
+      "failure_nodes": 0,
+      "error_nodes": 0,
+      "skipped_nodes": 0
+    },
+    {
+      "file": "REPORTS/PYTEST_LEGACY_V07.xml",
+      "sha256": "669369fcab3783d640e670a279aad4e2f0e0a7b625b17b655797eddd4ceffc35",
+      "tests_attr": 177,
+      "failures_attr": 0,
+      "errors_attr": 0,
+      "skipped_attr": 0,
+      "testcase_count": 177,
+      "failure_nodes": 0,
+      "error_nodes": 0,
+      "skipped_nodes": 0
+    }
+  ],
+  "pytest_receipts": [
+    {
+      "file": "REPORTS/PYTEST_V08_RECEIPT.json",
+      "sha256": "dcb64a34dc5828d1ca247ee32ae807ce961499c8c540432dfa709726730785c5",
+      "suite": "TESTS",
+      "expected_tests": 190,
+      "collected_count": 190,
+      "executed_count": 190,
+      "passed_count": 190,
+      "failed_count": 0,
+      "error_count": 0,
+      "skipped_count": 0,
+      "full_pytest_exit_code": 0,
+      "execution_mode": "full_pytest_junit",
+      "junit_path": "REPORTS\\PYTEST_V08.xml",
+      "junit_sha256": "b16456f0fa690bf8a266174367cd8719c3899984456ba4f58563fdb15d04dd57",
+      "stdout_path": "REPORTS\\PYTEST_V08_STDOUT.txt",
+      "stdout_sha256": "0e26c73f9d9c372f76800ec25996131dcc408084930c93f627368e89c892444c",
+      "stderr_path": "REPORTS\\PYTEST_V08_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pass": true,
+      "receipt_digest": "f2ebd2031adcb746be26e4674f6cae5f7777a9c94fbb3fe9c41f13f5aaa92062"
+    },
+    {
+      "file": "REPORTS/PYTEST_LEGACY_V07_RECEIPT.json",
+      "sha256": "b4eee1686ca301e957645db898039cc7a81be64a6f74cfba42dccdfd76cc879a",
+      "suite": "LEGACY_V07/TESTS",
+      "expected_tests": 177,
+      "collected_count": 177,
+      "executed_count": 177,
+      "passed_count": 177,
+      "failed_count": 0,
+      "error_count": 0,
+      "skipped_count": 0,
+      "full_pytest_exit_code": 0,
+      "execution_mode": "full_pytest_junit",
+      "junit_path": "REPORTS\\PYTEST_LEGACY_V07.xml",
+      "junit_sha256": "669369fcab3783d640e670a279aad4e2f0e0a7b625b17b655797eddd4ceffc35",
+      "stdout_path": "REPORTS\\PYTEST_LEGACY_V07_STDOUT.txt",
+      "stdout_sha256": "1c43ef32b447258d40de8de7bae2a7775dd71bd2481d8b68e9b8eeff1d41664a",
+      "stderr_path": "REPORTS\\PYTEST_LEGACY_V07_STDERR.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pass": true,
+      "receipt_digest": "4555b18d00d2d36bbe3f4699241b12c71b8c34fb687f2f839d4d6aafd7a6fc08"
+    }
+  ],
+  "concurrency": {
+    "thread_rounds": 100,
+    "process_rounds": 20,
+    "pass": true,
+    "sha256": "9f36e9df80a16bec9c2655d7172d3a625dfa63ae3935d378e628a5f250f684bd"
+  },
+  "mutation": {
+    "declared_mutants": 16,
+    "executed_mutants": 16,
+    "killed": 16,
+    "survived": 0,
+    "error": 0,
+    "pass": true,
+    "sha256": "3c4f0dc8dec985699c87e2cfd600b7fb88232f963e71f1759c767786c6d69741"
+  },
+  "cross_analysis": {
+    "fixture_count": 6,
+    "all_match": true,
+    "sha256": "fe1a93ad9cf3bf6228831951789414b59c746e3e4ca9d556647a30624667b975"
+  },
+  "negative_control": {
+    "pass": true,
+    "current_runner_exit_code": 1,
+    "legacy_runner_exit_code": 0,
+    "finalizer_exit_code": 1,
+    "current_receipt": {
+      "collected_count": 190,
+      "executed_count": 190,
+      "passed_count": 189,
+      "failed_count": 1,
+      "pass": false
+    },
+    "unit_report_pass": false,
+    "execution_summary_pass": false,
+    "sha256": "7e59cece4d8d3f43913d8eb9af2b27608f8016b113ab2d8e405cea52a3f2c05e"
+  },
+  "verifier": {
+    "clean_runner": "PASS",
+    "clean_v0_8_tests": 190,
+    "clean_legacy_v0_7_tests": 177,
+    "repl_prompt_observed": false,
+    "negative_control": "PASS_NONZERO"
+  },
+  "execution_summary": {
+    "schema": "esther.rp001.v0.8.execution_summary.v1",
+    "v0_8_tests": 190,
+    "legacy_v0_7_tests": 177,
+    "thread_concurrency_rounds": 100,
+    "process_concurrency_rounds": 20,
+    "declared_mutants": 16,
+    "killed_mutants": 16,
+    "cross_analysis_fixtures": 6,
+    "checks": {
+      "formal": true,
+      "epistemic": true,
+      "sioc": true,
+      "endpoint": true,
+      "analysis": true,
+      "unit_tests": true,
+      "mutation": true,
+      "concurrency": true,
+      "cross_analysis": true,
+      "full_execution_negative_control": true
+    },
+    "pass": true,
+    "claim_boundary": "Bounded executable evidence only; no empirical continuity, consciousness, entity, production-security, or unbounded theorem claim."
+  },
+  "report_file_hashes": [
+    {
+      "file": "REPORTS/ANALYSIS_CHECK_REPORT_v0_8.json",
+      "length": 229,
+      "sha256": "1ecd0cd10529b6e3217be694e5c01e388496ea2a02a55867971d45848cfd5548"
+    },
+    {
+      "file": "REPORTS/CONCURRENCY_REPORT_v0_8.json",
+      "length": 125,
+      "sha256": "9f36e9df80a16bec9c2655d7172d3a625dfa63ae3935d378e628a5f250f684bd"
+    },
+    {
+      "file": "REPORTS/CROSS_IMPLEMENTATION_ANALYSIS_REPORT_v0_8.json",
+      "length": 1418,
+      "sha256": "fe1a93ad9cf3bf6228831951789414b59c746e3e4ca9d556647a30624667b975"
+    },
+    {
+      "file": "REPORTS/ENDPOINT_CHECK_REPORT_v0_8.json",
+      "length": 124,
+      "sha256": "0b4286c537a3fb99fbf5f1f4136ea91db0ee9f0917de4d50c46eaa0801045342"
+    },
+    {
+      "file": "REPORTS/ENVIRONMENT_v0_8.json",
+      "length": 302,
+      "sha256": "c8edc2f0fd5860367b52c684387b93e43473968eb22c143d7b98333f367a95a9"
+    },
+    {
+      "file": "REPORTS/EPISTEMIC_CHECK_REPORT_v0_8.json",
+      "length": 658,
+      "sha256": "9251fcdb8b71e2ebb0a15abcc519a5508e94409f884220d396b9e4d799373364"
+    },
+    {
+      "file": "REPORTS/EXECUTION_SUMMARY_v0_8.json",
+      "length": 721,
+      "sha256": "c8502fa314f22193ffb96a9bbf5d8a0b13735e29e378e0e5d964a00f58481515"
+    },
+    {
+      "file": "REPORTS/FINALIZER_STDOUT_v0_8.json",
+      "length": 721,
+      "sha256": "c8502fa314f22193ffb96a9bbf5d8a0b13735e29e378e0e5d964a00f58481515"
+    },
+    {
+      "file": "REPORTS/FORMAL_CHECK_REPORT_v0_8.json",
+      "length": 541,
+      "sha256": "5c5b6ddca8d163d8affc9c43f8539187b4b029953a1cce6149f9098c720f2f40"
+    },
+    {
+      "file": "REPORTS/FULL_EXECUTION_NEGATIVE_CONTROL_v0_8.json",
+      "length": 1601,
+      "sha256": "7e59cece4d8d3f43913d8eb9af2b27608f8016b113ab2d8e405cea52a3f2c05e"
+    },
+    {
+      "file": "REPORTS/MUTATION_REPORT_v0_8.json",
+      "length": 7720,
+      "sha256": "3c4f0dc8dec985699c87e2cfd600b7fb88232f963e71f1759c767786c6d69741"
+    },
+    {
+      "file": "REPORTS/MUTATION_SHARD_0_v0_8.json",
+      "length": 1915,
+      "sha256": "7ba2f884808f8e38a4662e5637c1c49e66ea8542a77474ab7aceac23e3e2aca3"
+    },
+    {
+      "file": "REPORTS/MUTATION_SHARD_1_v0_8.json",
+      "length": 1927,
+      "sha256": "a42ce59bedc37e3494a9e338ea5a79dd6d33eff652099911270ce4f9e54c9d04"
+    },
+    {
+      "file": "REPORTS/MUTATION_SHARD_2_v0_8.json",
+      "length": 1949,
+      "sha256": "b5a72ceea528f1c4c6b265722a9b558b7b3b6c093ee39c291472e276e74145e3"
+    },
+    {
+      "file": "REPORTS/MUTATION_SHARD_3_v0_8.json",
+      "length": 1955,
+      "sha256": "66f338f7e4815b76796d36edf0dbf8bd4f8e8896414f45fd8927d0286d405fd5"
+    },
+    {
+      "file": "REPORTS/PYTEST_LEGACY_V07_RECEIPT.json",
+      "length": 1931,
+      "sha256": "b4eee1686ca301e957645db898039cc7a81be64a6f74cfba42dccdfd76cc879a"
+    },
+    {
+      "file": "REPORTS/PYTEST_LEGACY_V07_STDERR.txt",
+      "length": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "REPORTS/PYTEST_LEGACY_V07_STDOUT.txt",
+      "length": 433,
+      "sha256": "1c43ef32b447258d40de8de7bae2a7775dd71bd2481d8b68e9b8eeff1d41664a"
+    },
+    {
+      "file": "REPORTS/PYTEST_LEGACY_V07.xml",
+      "length": 23619,
+      "sha256": "669369fcab3783d640e670a279aad4e2f0e0a7b625b17b655797eddd4ceffc35"
+    },
+    {
+      "file": "REPORTS/PYTEST_V08_RECEIPT.json",
+      "length": 1862,
+      "sha256": "dcb64a34dc5828d1ca247ee32ae807ce961499c8c540432dfa709726730785c5"
+    },
+    {
+      "file": "REPORTS/PYTEST_V08_STDERR.txt",
+      "length": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "REPORTS/PYTEST_V08_STDOUT.txt",
+      "length": 426,
+      "sha256": "0e26c73f9d9c372f76800ec25996131dcc408084930c93f627368e89c892444c"
+    },
+    {
+      "file": "REPORTS/PYTEST_V08.xml",
+      "length": 23228,
+      "sha256": "b16456f0fa690bf8a266174367cd8719c3899984456ba4f58563fdb15d04dd57"
+    },
+    {
+      "file": "REPORTS/REPRODUCTION_COMMANDS_v0_8.json",
+      "length": 1750,
+      "sha256": "d2fc3e701227b58cf8afca8566f5242f8c84cb3146f545b444eca44c5b134f32"
+    },
+    {
+      "file": "REPORTS/SIOC_CHECK_REPORT_v0_8.json",
+      "length": 199,
+      "sha256": "2d0341226ceec21a0db8f38772269a6b8140ad23dc0a6319c9ea99168d368ab6"
+    },
+    {
+      "file": "REPORTS/UNIT_TEST_REPORT_v0_8.json",
+      "length": 6745,
+      "sha256": "75044a17656d5233c4effac08e54450eda2829bcb527e261c057af503f82ccf2"
+    }
+  ],
+  "changed_files_count": 24,
+  "changed_files_all_under_reports": true
+}

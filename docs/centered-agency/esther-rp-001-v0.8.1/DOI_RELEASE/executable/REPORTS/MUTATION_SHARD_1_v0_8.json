@@ -1,0 +1,54 @@
+{
+  "schema": "esther.rp001.v0.8.mutation_shard.v1",
+  "shard": 1,
+  "results": [
+    {
+      "mutant_id": "M05_EVIDENCE_REBIND",
+      "source_path": "CODE/epistemic_v08.py",
+      "site_count": 1,
+      "diff_digest": "ae75d5f6804f579d5bbeebfdb15b0092068e6a7d9d99a8e4bae4e5e65f9ec63d",
+      "target_node": "M05_EVIDENCE_REBIND",
+      "expected_marker": "MUTANT_M05_EVIDENCE_BINDING",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M05_EVIDENCE_BINDING\n"
+    },
+    {
+      "mutant_id": "M06_UNMODELED_SOC_ACTION",
+      "source_path": "CODE/epistemic_v08.py",
+      "site_count": 1,
+      "diff_digest": "e97bc1cbf3ef13123773ef2bf8f5877ef4744fc3817d2e0deebbba964842668a",
+      "target_node": "M06_UNMODELED_SOC_ACTION",
+      "expected_marker": "MUTANT_M06_SOC_UNIVERSE",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M06_SOC_UNIVERSE\n"
+    },
+    {
+      "mutant_id": "M07_REQUEST_REBIND",
+      "source_path": "CODE/sioc_v08.py",
+      "site_count": 1,
+      "diff_digest": "068796f892a5b8069024192143a49f524aa24a49f7f991f256cd3ae2e91fc9a1",
+      "target_node": "M07_REQUEST_REBIND",
+      "expected_marker": "MUTANT_M07_REQUEST_BINDING",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M07_REQUEST_BINDING\n"
+    },
+    {
+      "mutant_id": "M08_ASSIGNMENT_DIGEST_BYPASS",
+      "source_path": "CODE/endpoint_v08.py",
+      "site_count": 1,
+      "diff_digest": "32a47735145550da9d562b35c1f9402f393b5face4b7e8d32579b4663d2cf404",
+      "target_node": "M08_ASSIGNMENT_DIGEST_BYPASS",
+      "expected_marker": "MUTANT_M08_ASSIGNMENT_BINDING",
+      "baseline_exit": 0,
+      "mutated_exit": 1,
+      "status": "KILLED",
+      "output_tail": "MUTANT_M08_ASSIGNMENT_BINDING\n"
+    }
+  ]
+}

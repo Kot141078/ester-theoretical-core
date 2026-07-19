@@ -1,0 +1,55 @@
+{
+  "schema": "esther.rp001.english_doi_release.validation.v1",
+  "created_utc": "2026-07-19T15:55:00Z",
+  "doi": "10.5281/zenodo.21443105",
+  "language_policy": "English-only public release",
+  "json_files_checked": 26,
+  "json_failures": [],
+  "cyrillic_codepoints_found": [],
+  "unresolved_publication_placeholders": [],
+  "credential_patterns_found": [],
+  "document_qa": {
+    "article_docx_pages": 11,
+    "article_pdf_pages": 11,
+    "article_visual_qa": "PASS - every page inspected",
+    "article_pdf_preflight": "PASS - open, unencrypted, text PDF, no warnings",
+    "brief_docx_pages": 8,
+    "brief_pdf_pages": 8,
+    "brief_visual_qa": "PASS - every page inspected",
+    "brief_pdf_preflight": "PASS - open, unencrypted, text PDF, no warnings"
+  },
+  "executable_preservation": {
+    "original_blind_manifest_existing_entries_matched": 69,
+    "mismatches": [],
+    "deliberately_not_redistributed_context_files": [
+      "00_REVIEW_SCOPE_RU.md",
+      "01_ANONYMIZED_MANUSCRIPT_RU.md",
+      "02_FORMAL_AUTHORITY_PREFIX_RU.md",
+      "03_OBLIGATION_EVIDENCE_RU.md",
+      "04_SOC_SIOC_RU.md",
+      "05_MEASUREMENT_ANALYSIS_RU.md",
+      "06_EVIDENCE_REPRODUCIBILITY_RU.md",
+      "07_REPRODUCIBILITY_RU.md",
+      "08_KNOWN_LIMITATIONS_RU.md"
+    ],
+    "expected_context_files": [
+      "00_REVIEW_SCOPE_RU.md",
+      "01_ANONYMIZED_MANUSCRIPT_RU.md",
+      "02_FORMAL_AUTHORITY_PREFIX_RU.md",
+      "03_OBLIGATION_EVIDENCE_RU.md",
+      "04_SOC_SIOC_RU.md",
+      "05_MEASUREMENT_ANALYSIS_RU.md",
+      "06_EVIDENCE_REPRODUCIBILITY_RU.md",
+      "07_REPRODUCIBILITY_RU.md",
+      "08_KNOWN_LIMITATIONS_RU.md"
+    ],
+    "expected_missing_match": true,
+    "executable_only_manifest_verified": true
+  },
+  "blind_review_packet_sha256": "38288d2000a8295c8eb8bc540c3fab4491aa66b1dca60a4d45135a957e4834f6",
+  "sixth_blind_review_verdict": "NO_CANDIDATE_BLOCKERS_FOUND",
+  "windows_phase1": "PASS",
+  "pre_manifest_tree_root_sha256": "1f866b9dc73c617350cd7ee2c0bd5df3fe57393f9d7c24f0c3eb85838134ab19",
+  "pre_manifest_file_count": 113,
+  "verdict": "PASS"
+}

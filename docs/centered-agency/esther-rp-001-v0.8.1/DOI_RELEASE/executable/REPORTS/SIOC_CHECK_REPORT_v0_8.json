@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "passive_has_no_effect": true,
+    "receipt_digest_valid": true,
+    "instrument_rejects_incomplete": true,
+    "accounting_rejects_negative": true
+  },
+  "pass": true
+}

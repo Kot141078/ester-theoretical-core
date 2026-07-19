@@ -1,0 +1,7 @@
+{
+  "checks": {
+    "fixed_denominator": true,
+    "altered_assignment_same_id_rejected": true
+  },
+  "pass": true
+}

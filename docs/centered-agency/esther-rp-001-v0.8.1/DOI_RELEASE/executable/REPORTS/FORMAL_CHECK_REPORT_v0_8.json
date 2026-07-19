@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "out_of_order_cut_rejected_before_mutation": true,
+    "failed_cut_atomic": true,
+    "escalation_changes_handler_not_normative_debtor": true,
+    "reconciliation_is_explicitly_proposal_only": true,
+    "bounded_liveness": true
+  },
+  "liveness": {
+    "reachable_states": 63,
+    "transition_count": 70,
+    "nonterminal_cycle": false,
+    "cycle_trace": [],
+    "nonterminal_dead_ends": [],
+    "declared_ceiling_ticks": 8,
+    "observed_worst_case_ticks": 6,
+    "pass": true
+  },
+  "pass": true
+}
