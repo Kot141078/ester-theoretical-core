@@ -1,0 +1,6 @@
+ESTHER-RP-001 v0.8.1 post-publication import
+Published DOI: 10.5281/zenodo.21443105
+Zenodo record: https://zenodo.org/records/21443105
+Canonical archive: ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip
+Expected SHA-256: 83e71e2fab938e3110293a61967a85440969d8d7eb78a69bf4c1ae40afd4a9d7
+Triggered after human-confirmed Zenodo publication on 2026-07-19.
