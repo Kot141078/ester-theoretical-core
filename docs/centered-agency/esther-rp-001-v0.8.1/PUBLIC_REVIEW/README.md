@@ -1,38 +1,28 @@
-# Public review and independent testing
+# Open review and independent testing — ESTHER-RP-001 v0.8.1
 
-## Open call
+This English-only public working-paper release is ready for external scrutiny, not for a claim of completion.
 
-`ESTHER-RP-001 v0.8.1 — Centered Agency Under Persistent Uncertainty` is published as a public preprint and bounded executable research package.
+## Requested review tracks
 
-This is not a machine-consciousness claim. The release asks what a persistent system must preserve in order to maintain unresolved world-models, make local commitments, revise itself without rewriting history, and remain accountable for authority, obligations, and physical consequences.
+| Track | Primary question | Expected deliverable |
+|---|---|---|
+| Formal methods | Are temporal prefix, authority, obligation, liveness, and refinement claims coherent? | Public issue or report with an exact counterexample and acceptance criterion |
+| Belief revision / decision theory | Are revision, update, SOC, EVI, branch, and obligation semantics defensible? | Structured conceptual review |
+| Experimental methodology | Are endpoints, controls, blinding, equivalence, and tail rules valid? | Measurement and protocol review |
+| Quantum information / photonics | Are substrate, instrument, and measurement claims correctly bounded? | Physics or engineering review |
+| Reproducibility | Does the exact English release reproduce in a clean environment? | Command log, hashes, platform record, and observed counts |
+| Endpoint-rater pilot | Can independent raters apply SRR, OCA, PAR, and RCS consistently? | Blinded ratings, timing, disagreement, and ambiguity notes |
 
-## Reviewers sought
-
-1. **Formal methods / distributed systems** — causal prefix, atomic publication, replay/fork/succession, safety/liveness/refinement.
-2. **Belief revision / decision theory** — revision versus world update, evidence status, obligations, SOC, multiple priors, and stopping.
-3. **Experimental methodology** — construct validity, information parity, SRR/OCA/PAR/RCS, equivalence margins, hierarchical design, endpoint gaming.
-4. **Quantum information / photonics** — measurement instruments, basis/reference dependence, calibration/noise, classical coherent versus quantum photonics, and the boundary between hardware capability and agency claims.
-
-## Frozen target
+## English public review packet
 
 ```text
-ESTHER_RP001_v0_8_1_BLIND_REVIEW_PACKET.zip
-SHA-256:
-38288d2000a8295c8eb8bc540c3fab4491aa66b1dca60a4d45135a957e4834f6
+ESTHER_RP001_v0_8_1_ENGLISH_REVIEW_PACKET.zip
+SHA-256: e154273e8fbe0900f17c03d7803adc3ca70f6757ff41ae78f0a36ce76f5b989f
 ```
 
-The frozen ZIP is attached to the versioned GitHub release and Zenodo record.
+The exact packet used for the sixth blind model review is preserved by SHA-256 in the review records but is not redistributed in the English-only public surface because its review instructions were produced in Russian.
 
-## Windows reproduction
-
-```powershell
-.\RUN_ALL_V08.ps1 -PythonExe 'C:\Python310\python.exe'
-
-.\TOOLS\VERIFY_WINDOWS_RUNNER_V08.ps1 `
-  -PythonExe 'C:\Python310\python.exe'
-```
-
-Expected bounded counts:
+## Expected bounded reproduction counts
 
 ```text
 190 current tests
@@ -94,6 +84,14 @@ The endpoint pilot validates the measurement instrument, not superiority of `C`.
 - RCS — per-episode Reality-Correction Score.
 
 `RCG` is calculated later as a randomized arm-level contrast. The pilot should estimate agreement, endpoint-specific disagreement, adjudication rate, ambiguous-case rate, missingness, scoring time, evaluator variance, codebook failures, and arm leakage.
+
+## Rules
+
+- Identify the exact release tag and SHA-256.
+- Separate conceptual concerns from reproduced implementation defects.
+- Do not infer consciousness, personhood, AGI, or production readiness.
+- Negative findings are welcome and should remain public.
+- Do not submit private dialogue, credentials, personal memory, or live-system data.
 
 ## Claim boundary
 

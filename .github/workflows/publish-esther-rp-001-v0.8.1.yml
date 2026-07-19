@@ -1,0 +1,51 @@
+name: Publish ESTHER-RP-001 v0.8.1 release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/centered-agency/esther-rp-001-v0.8.1/**'
+      - 'README.md'
+      - 'CITATION.cff'
+      - 'CITATION.bib'
+      - '.zenodo.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: esther-rp-001-v0.8.1
+      RELEASE_DIR: docs/centered-agency/esther-rp-001-v0.8.1
+      ASSET: ESTHER_RP001_v0_8_1_PUBLIC_RELEASE_EN_2026-07-19.zip
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build deterministic English public asset
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile
+          root = Path('docs/centered-agency/esther-rp-001-v0.8.1')
+          out = Path('ESTHER_RP001_v0_8_1_PUBLIC_RELEASE_EN_2026-07-19.zip')
+          fixed = (2026, 7, 19, 0, 0, 0)
+          with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
+              for path in sorted(p for p in root.rglob('*') if p.is_file()):
+                  info = zipfile.ZipInfo(f'ESTHER_RP001_v0_8_1_PUBLIC_RELEASE_EN_2026-07-19/{path.relative_to(root).as_posix()}', fixed)
+                  info.compress_type = zipfile.ZIP_DEFLATED
+                  info.external_attr = 0o100644 << 16
+                  zf.writestr(info, path.read_bytes())
+          PY
+          sha256sum "$ASSET" > "$ASSET.sha256.txt"
+      - name: Create or update GitHub release
+        run: |
+          NOTES="$RELEASE_DIR/GITHUB_RELEASE_NOTES.md"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$ASSET" "$ASSET.sha256.txt" --clobber
+            gh release edit "$TAG" --title "ESTHER-RP-001 v0.8.1 — Centered Agency Under Persistent Uncertainty" --notes-file "$NOTES"
+          else
+            gh release create "$TAG" --target "$GITHUB_SHA" --title "ESTHER-RP-001 v0.8.1 — Centered Agency Under Persistent Uncertainty" --notes-file "$NOTES" "$ASSET" "$ASSET.sha256.txt"
+          fi

@@ -2,44 +2,40 @@
 
 ## Centered Agency Under Persistent Uncertainty
 
-Public preprint, bounded executable research package, and open external-review target by **Ivan Kotov**.
+English-only public working paper, bounded executable reference package, and open external-review target by **Ivan Kotov**.
 
 - ORCID: [0009-0009-6002-9845](https://orcid.org/0009-0009-6002-9845)
 - Website: <https://ivankotov.eu/publications/esther-rp-001/>
+- GitHub release: <https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1>
 - External review issue: <https://github.com/Kot141078/ester-theoretical-core/issues/1>
-- DOI: pending Zenodo publication of this version
+- Version DOI: pending Zenodo archival of the GitHub release
 - Scientific content: v0.8
 - Packaging/reproducibility correction: v0.8.1
 
-## Read first
+## Start here
 
 1. [`ARTICLE/ESTHER_RP_001_v0_8_1_EN.md`](ARTICLE/ESTHER_RP_001_v0_8_1_EN.md)
-2. [`ARTICLE/ESTHER_RP_001_v0_8_1_RU.md`](ARTICLE/ESTHER_RP_001_v0_8_1_RU.md)
-3. [`PUBLIC_REVIEW/README.md`](PUBLIC_REVIEW/README.md)
-4. [`RELEASE_ASSETS.md`](RELEASE_ASSETS.md)
-5. [`GITHUB_RELEASE_NOTES.md`](GITHUB_RELEASE_NOTES.md)
-6. [`LICENSE_POLICY.md`](LICENSE_POLICY.md)
+2. [`PUBLIC_REVIEW/README.md`](PUBLIC_REVIEW/README.md)
+3. [`SPECIFICATIONS/`](SPECIFICATIONS/)
+4. [`REVIEW_STATUS.md`](REVIEW_STATUS.md)
+5. [`RELEASE_ASSETS.md`](RELEASE_ASSETS.md)
+6. [`GITHUB_RELEASE_NOTES.md`](GITHUB_RELEASE_NOTES.md)
+7. [`LANGUAGE_POLICY.md`](LANGUAGE_POLICY.md)
+8. [`LICENSE_POLICY.md`](LICENSE_POLICY.md)
 
-## Frozen review target
-
-The complete frozen executable object will be attached to the GitHub release and Zenodo deposit:
-
-```text
-ESTHER_RP001_v0_8_1_BLIND_REVIEW_PACKET.zip
-SHA-256: 38288d2000a8295c8eb8bc540c3fab4491aa66b1dca60a4d45135a957e4834f6
-```
-
-Complete public-release archive prepared for GitHub/Zenodo:
+## English public review target
 
 ```text
-ESTHER_RP001_v0_8_1_PUBLIC_RESEARCH_RELEASE_2026-07-19.zip
-SHA-256: c57eb0d267c100b069f1b74402ee62d1693b495f1454b9275e17964f1ea31ce7
+ESTHER_RP001_v0_8_1_ENGLISH_REVIEW_PACKET.zip
+SHA-256: e154273e8fbe0900f17c03d7803adc3ca70f6757ff41ae78f0a36ce76f5b989f
 ```
+
+The exact packet used for the sixth blind model review is identified by SHA-256 in the review evidence, but is not redistributed in this English-only public surface because its review instructions were produced in Russian.
 
 ## Bounded evidence
 
 ```text
-Windows reproduction: PASS
+Independent Windows reproduction: PASS
 190/190 current tests
 177/177 legacy tests
 100 thread rounds
@@ -50,12 +46,15 @@ false-PASS negative control rejected
 sixth blind conceptual review: NO_CANDIDATE_BLOCKERS_FOUND
 ```
 
+This is not human peer review.
+
 ## External work requested
 
 - human conceptual review;
 - independent endpoint-rater pilot;
 - matched-control design critique;
-- quantum-information and photonic claim-boundary review.
+- quantum-information and photonic claim-boundary review;
+- clean reproduction on independent environments.
 
 ## Non-claims
 
