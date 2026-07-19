@@ -1,0 +1,94 @@
+{
+  "schema": "esther.rp001.github_release_publication_status.v1",
+  "verdict": "PASS",
+  "doi": "10.5281/zenodo.21443105",
+  "zenodo_record": "https://zenodo.org/records/21443105",
+  "canonical_archive": {
+    "file": "ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip",
+    "sha256": "83e71e2fab938e3110293a61967a85440969d8d7eb78a69bf4c1ae40afd4a9d7"
+  },
+  "required_assets": [
+    "ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip",
+    "ESTHER_RP_001_v0_8_1_EN.pdf",
+    "ESTHER_RP_001_PUBLIC_BRIEF_EN.pdf"
+  ],
+  "release": {
+    "assets": [
+      {
+        "apiUrl": "https://api.github.com/repos/Kot141078/ester-theoretical-core/releases/assets/482565693",
+        "contentType": "application/zip",
+        "createdAt": "2026-07-19T16:54:12Z",
+        "digest": "sha256:83e71e2fab938e3110293a61967a85440969d8d7eb78a69bf4c1ae40afd4a9d7",
+        "downloadCount": 0,
+        "id": "RA_kwDOS5qkdc4cw149",
+        "label": "",
+        "name": "ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip",
+        "size": 454012,
+        "state": "uploaded",
+        "updatedAt": "2026-07-19T16:54:12Z",
+        "url": "https://github.com/Kot141078/ester-theoretical-core/releases/download/esther-rp-001-v0.8.1/ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/Kot141078/ester-theoretical-core/releases/assets/482535624",
+        "contentType": "application/zip",
+        "createdAt": "2026-07-19T16:09:48Z",
+        "digest": "sha256:aa926a24c8a5f67000c469196bbb6ad088f908946d7a1fdf4ae1f8d2c2413f85",
+        "downloadCount": 0,
+        "id": "RA_kwDOS5qkdc4cwujI",
+        "label": "",
+        "name": "ESTHER_RP001_v0_8_1_PUBLIC_RELEASE_EN_2026-07-19.zip",
+        "size": 25537,
+        "state": "uploaded",
+        "updatedAt": "2026-07-19T16:09:48Z",
+        "url": "https://github.com/Kot141078/ester-theoretical-core/releases/download/esther-rp-001-v0.8.1/ESTHER_RP001_v0_8_1_PUBLIC_RELEASE_EN_2026-07-19.zip"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/Kot141078/ester-theoretical-core/releases/assets/482535625",
+        "contentType": "text/plain; charset=utf-8",
+        "createdAt": "2026-07-19T16:09:48Z",
+        "digest": "sha256:c86c38dbd68e2ef1823207ec3e75c35ddf7c67561cb5da20e60c107c4af8a1ac",
+        "downloadCount": 0,
+        "id": "RA_kwDOS5qkdc4cwujJ",
+        "label": "",
+        "name": "ESTHER_RP001_v0_8_1_PUBLIC_RELEASE_EN_2026-07-19.zip.sha256.txt",
+        "size": 119,
+        "state": "uploaded",
+        "updatedAt": "2026-07-19T16:09:48Z",
+        "url": "https://github.com/Kot141078/ester-theoretical-core/releases/download/esther-rp-001-v0.8.1/ESTHER_RP001_v0_8_1_PUBLIC_RELEASE_EN_2026-07-19.zip.sha256.txt"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/Kot141078/ester-theoretical-core/releases/assets/482565694",
+        "contentType": "application/pdf",
+        "createdAt": "2026-07-19T16:54:12Z",
+        "digest": "sha256:48cdda1a1175c7d03609ef657f3f170079433b78170cdf43af1ebc882ec553fe",
+        "downloadCount": 0,
+        "id": "RA_kwDOS5qkdc4cw14-",
+        "label": "",
+        "name": "ESTHER_RP_001_PUBLIC_BRIEF_EN.pdf",
+        "size": 104362,
+        "state": "uploaded",
+        "updatedAt": "2026-07-19T16:54:12Z",
+        "url": "https://github.com/Kot141078/ester-theoretical-core/releases/download/esther-rp-001-v0.8.1/ESTHER_RP_001_PUBLIC_BRIEF_EN.pdf"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/Kot141078/ester-theoretical-core/releases/assets/482565695",
+        "contentType": "application/pdf",
+        "createdAt": "2026-07-19T16:54:12Z",
+        "digest": "sha256:8a0a51cf82f8e22f49fa46e00f320e0fd98038a6cd0437b1c1861410496b13d9",
+        "downloadCount": 0,
+        "id": "RA_kwDOS5qkdc4cw14_",
+        "label": "",
+        "name": "ESTHER_RP_001_v0_8_1_EN.pdf",
+        "size": 142601,
+        "state": "uploaded",
+        "updatedAt": "2026-07-19T16:54:12Z",
+        "url": "https://github.com/Kot141078/ester-theoretical-core/releases/download/esther-rp-001-v0.8.1/ESTHER_RP_001_v0_8_1_EN.pdf"
+      }
+    ],
+    "isDraft": false,
+    "isPrerelease": false,
+    "name": "ESTHER-RP-001 v0.8.1 - Centered Agency Under Persistent Uncertainty",
+    "tagName": "esther-rp-001-v0.8.1",
+    "url": "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1"
+  }
+}
