@@ -1,0 +1,66 @@
+name: Import ESTHER-RP-001 v0.8.1 DOI archive
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "DOI_IMPORT_TRIGGER.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  import-doi-archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download canonical Zenodo archive
+        run: |
+          set -euo pipefail
+          url="https://zenodo.org/records/21443105/files/ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19.zip?download=1"
+          curl --fail --location --retry 5 --retry-delay 3 "$url" -o /tmp/esther-rp-001-v0.8.1.zip
+          echo "83e71e2fab938e3110293a61967a85440969d8d7eb78a69bf4c1ae40afd4a9d7  /tmp/esther-rp-001-v0.8.1.zip" | sha256sum --check --strict
+
+      - name: Extract DOI package into browsable repository surface
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/esther-rp-001
+          mkdir -p /tmp/esther-rp-001
+          unzip -q /tmp/esther-rp-001-v0.8.1.zip -d /tmp/esther-rp-001
+          src="/tmp/esther-rp-001/ESTHER_RP001_v0_8_1_ENGLISH_DOI_RELEASE_2026-07-19"
+          dst="docs/centered-agency/esther-rp-001-v0.8.1/DOI_RELEASE"
+          rm -rf "$dst"
+          mkdir -p "$dst"
+          cp -a "$src"/. "$dst"/
+          sha256sum --check "$dst/SHA256SUMS.txt"
+
+      - name: Commit browsable DOI package
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/centered-agency/esther-rp-001-v0.8.1/DOI_RELEASE
+          if git diff --cached --quiet; then
+            echo "DOI package already imported."
+          else
+            git commit -m "Import DOI-bound ESTHER-RP-001 v0.8.1 package"
+            git push
+          fi
+
+      - name: Attach DOI assets and finalize GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          src="docs/centered-agency/esther-rp-001-v0.8.1/DOI_RELEASE"
+          gh release upload esther-rp-001-v0.8.1 \
+            /tmp/esther-rp-001-v0.8.1.zip \
+            "$src/article/ESTHER_RP_001_v0_8_1_EN.pdf" \
+            "$src/brief/ESTHER_RP_001_PUBLIC_BRIEF_EN.pdf" \
+            --clobber
+          gh release edit esther-rp-001-v0.8.1 \
+            --title "ESTHER-RP-001 v0.8.1 - Centered Agency Under Persistent Uncertainty" \
+            --notes-file docs/centered-agency/esther-rp-001-v0.8.1/GITHUB_RELEASE_NOTES.md

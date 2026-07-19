@@ -1,10 +1,11 @@
 cff-version: "1.2.0"
-message: "Please cite the version DOI shown on the Zenodo record for this release."
+message: "Please cite the version DOI for this release."
 title: "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty"
 type: software
 version: "0.8.1"
 date-released: "2026-07-19"
-url: "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1"
+doi: "10.5281/zenodo.21443105"
+url: "https://doi.org/10.5281/zenodo.21443105"
 repository-code: "https://github.com/Kot141078/ester-theoretical-core"
 repository-artifact: "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1"
 abstract: >-
@@ -18,12 +19,14 @@ authors:
     affiliation: "Independent Researcher, Brussels, Belgium"
     orcid: "https://orcid.org/0009-0009-6002-9845"
 keywords:
+  - "Project Ester"
   - "centered agency"
   - "persistent uncertainty"
   - "causal memory"
   - "selective operational commitment"
   - "temporal witness"
   - "belief revision"
+  - "obligation continuity"
   - "multi-substrate computation"
   - "matched profile-control"
 license: "CC-BY-4.0"
@@ -32,7 +35,8 @@ preferred-citation:
   title: "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty"
   version: "0.8.1"
   year: 2026
-  url: "https://github.com/Kot141078/ester-theoretical-core/releases/tag/esther-rp-001-v0.8.1"
+  doi: "10.5281/zenodo.21443105"
+  url: "https://doi.org/10.5281/zenodo.21443105"
   authors:
     - family-names: "Kotov"
       given-names: "Ivan"

@@ -7,7 +7,7 @@ ESTHER_RP001_v0_8_1_BLIND_REVIEW_PACKET.zip
 SHA-256: 38288d2000a8295c8eb8bc540c3fab4491aa66b1dca60a4d45135a957e4834f6
 ```
 
-That exact packet is not redistributed in this English-only public release because its review documents were produced in Russian. The English public review packet is a publication derivative, not the byte-identical blind-review input.
+The exact packet is not redistributed in this English-only public release because its review instructions and manuscript were produced in Russian. This English public package is a publication derivative, not the byte-identical blind-review input.
 
 ## Independent Windows reproduction
 
