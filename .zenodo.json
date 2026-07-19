@@ -1,48 +1,47 @@
 {
+  "title": "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty",
+  "version": "0.8.1",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "publication_date": "2026-07-19",
   "creators": [
     {
       "name": "Kotov, Ivan",
       "orcid": "0009-0009-6002-9845",
-      "affiliation": "Independent Researcher, Brussels, Belgium",
-      "type": "ProjectLeader"
+      "affiliation": "Independent Researcher, Brussels, Belgium"
     }
   ],
-  "title": "ESTHER-RP-001: Centered Agency Under Persistent Uncertainty",
-  "version": "0.8.1",
+  "description": "<p>ESTHER-RP-001 is an English public working paper and bounded executable research package on centered agency under persistent uncertainty.</p><p>It formalizes causal memory, selective operational commitment, temporal witness, obligation continuity, auditable substrate interaction, and a falsifiable matched persistent-profile control programme.</p><p>The release includes the full English manuscript, normative specifications, reference implementations, tests, reproducibility receipts, and open human-review and endpoint-rater calls. It does not claim consciousness, personhood, AGI, empirical continuity, production security, or quantum necessity.</p>",
   "access_right": "open",
   "license": "cc-by-4.0",
-  "upload_type": "software",
   "language": "eng",
-  "description": "<p>Public preprint and bounded executable research package on centered agency under persistent uncertainty. The package defines a governed causal-history architecture, selective operational commitment, obligation and evidence lifecycle, substrate interaction boundaries, sealed measurement contracts, reproducibility evidence, and open external-review protocols.</p><p>The release does not claim consciousness, life, personhood, AGI, entity status, empirical continuity, production security, or quantum/photonic necessity.</p>",
   "keywords": [
+    "Project Ester",
     "centered agency",
     "persistent uncertainty",
     "causal memory",
-    "belief revision",
-    "temporal witness",
     "selective operational commitment",
-    "quantum information",
-    "photonic computing",
-    "matched control",
-    "AI governance",
-    "Project Ester"
+    "temporal witness",
+    "belief revision",
+    "obligation continuity",
+    "multi-substrate computation",
+    "matched profile-control",
+    "open review",
+    "reproducible research"
   ],
   "related_identifiers": [
     {
-      "identifier": "https://doi.org/10.5281/zenodo.20679718",
-      "relation": "isSupplementTo",
-      "resource_type": "publication-workingpaper"
+      "identifier": "10.5281/zenodo.20679718",
+      "relation": "isNewVersionOf"
     },
     {
       "identifier": "https://github.com/Kot141078/ester-theoretical-core",
-      "relation": "isIdenticalTo",
-      "resource_type": "software"
+      "relation": "isIdenticalTo"
     },
     {
       "identifier": "https://ivankotov.eu/publications/esther-rp-001/",
-      "relation": "isDocumentedBy",
-      "resource_type": "publication-other"
+      "relation": "isDocumentedBy"
     }
   ],
-  "notes": "DOI is pending publication. Use the version-specific DOI after Zenodo ingestion. Scientific content is v0.8; v0.8.1 is the independently reproduced Windows-runner packaging correction. Documentation is CC BY 4.0; code remains available under the MIT License included in the package."
+  "notes": "Scientific core v0.8; v0.8.1 includes the reviewed Windows runner hotfix and English-only public-release packaging."
 }
